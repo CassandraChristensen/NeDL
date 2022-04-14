@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Booleans\bin\Debug\net6.0\Booleans.exe
+C:\Users\CChristensen\Desktop\NeDL\Booleans\bin\Debug\net6.0\Booleans.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Booleans\bin\Debug\net6.0\Booleans.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Booleans\bin\Debug\net6.0\Booleans.dll
+C:\Users\CChristensen\Desktop\NeDL\Booleans\bin\Debug\net6.0\ref\Booleans.dll
+C:\Users\CChristensen\Desktop\NeDL\Booleans\bin\Debug\net6.0\Booleans.pdb
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.dll
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\ref\Booleans.dll
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.pdb
+C:\Users\CChristensen\Desktop\NeDL\Booleans\obj\Debug\net6.0\Booleans.genruntimeconfig.cache

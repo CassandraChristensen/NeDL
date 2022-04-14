@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\bin\Debug\net6.0\Method 1.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\bin\Debug\net6.0\Method 1.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\bin\Debug\net6.0\Method 1.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\bin\Debug\net6.0\Method 1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\bin\Debug\net6.0\ref\Method 1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\bin\Debug\net6.0\Method 1.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\ref\Method 1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\Method 1\obj\Debug\net6.0\Method 1.genruntimeconfig.cache

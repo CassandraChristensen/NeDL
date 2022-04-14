@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\bin\Debug\net6.0\Take Two Stones (W2D1).exe
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\bin\Debug\net6.0\Take Two Stones (W2D1).deps.json
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\bin\Debug\net6.0\Take Two Stones (W2D1).runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\bin\Debug\net6.0\Take Two Stones (W2D1).dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\bin\Debug\net6.0\ref\Take Two Stones (W2D1).dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\bin\Debug\net6.0\Take Two Stones (W2D1).pdb
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\ref\Take Two Stones (W2D1).dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).pdb
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\Take Two Stones (W2D1)\obj\Debug\net6.0\Take Two Stones (W2D1).genruntimeconfig.cache

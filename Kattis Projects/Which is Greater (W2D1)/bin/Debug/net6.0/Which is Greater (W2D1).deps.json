@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Which is Greater (W2D1)/1.0.0": {
+        "runtime": {
+          "Which is Greater (W2D1).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Which is Greater (W2D1)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

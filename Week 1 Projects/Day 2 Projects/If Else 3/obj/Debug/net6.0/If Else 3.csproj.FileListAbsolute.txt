@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\bin\Debug\net6.0\If Else 3.exe
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\bin\Debug\net6.0\If Else 3.deps.json
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\bin\Debug\net6.0\If Else 3.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\bin\Debug\net6.0\If Else 3.dll
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\bin\Debug\net6.0\ref\If Else 3.dll
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\bin\Debug\net6.0\If Else 3.pdb
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.dll
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\ref\If Else 3.dll
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.pdb
+C:\Users\CChristensen\Desktop\NeDL\If Else 3\obj\Debug\net6.0\If Else 3.genruntimeconfig.cache

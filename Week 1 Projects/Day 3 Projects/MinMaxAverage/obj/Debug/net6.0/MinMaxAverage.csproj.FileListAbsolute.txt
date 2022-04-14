@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\bin\Debug\net6.0\MinMaxAverage.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\bin\Debug\net6.0\MinMaxAverage.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\bin\Debug\net6.0\MinMaxAverage.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\bin\Debug\net6.0\MinMaxAverage.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\bin\Debug\net6.0\ref\MinMaxAverage.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\bin\Debug\net6.0\MinMaxAverage.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\ref\MinMaxAverage.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 3 Projects\MinMaxAverage\obj\Debug\net6.0\MinMaxAverage.genruntimeconfig.cache

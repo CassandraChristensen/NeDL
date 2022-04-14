@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\bin\Debug\net6.0\CRUD App In Class.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\bin\Debug\net6.0\CRUD App In Class.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\bin\Debug\net6.0\CRUD App In Class.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\bin\Debug\net6.0\CRUD App In Class.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\bin\Debug\net6.0\ref\CRUD App In Class.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\bin\Debug\net6.0\CRUD App In Class.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\ref\CRUD App In Class.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\CRUD App In Class\obj\Debug\net6.0\CRUD App In Class.genruntimeconfig.cache

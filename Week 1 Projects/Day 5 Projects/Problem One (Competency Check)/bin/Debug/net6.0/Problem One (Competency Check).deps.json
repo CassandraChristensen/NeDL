@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Problem One (Competency Check)/1.0.0": {
+        "runtime": {
+          "Problem One (Competency Check).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Problem One (Competency Check)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\conversions\bin\Debug\net6.0\conversions.exe
+C:\Users\CChristensen\Desktop\NeDL\conversions\bin\Debug\net6.0\conversions.deps.json
+C:\Users\CChristensen\Desktop\NeDL\conversions\bin\Debug\net6.0\conversions.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\conversions\bin\Debug\net6.0\conversions.dll
+C:\Users\CChristensen\Desktop\NeDL\conversions\bin\Debug\net6.0\ref\conversions.dll
+C:\Users\CChristensen\Desktop\NeDL\conversions\bin\Debug\net6.0\conversions.pdb
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.dll
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\ref\conversions.dll
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.pdb
+C:\Users\CChristensen\Desktop\NeDL\conversions\obj\Debug\net6.0\conversions.genruntimeconfig.cache

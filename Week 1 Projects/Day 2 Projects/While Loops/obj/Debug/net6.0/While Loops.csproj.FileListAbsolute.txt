@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\While Loops\bin\Debug\net6.0\While Loops.exe
+C:\Users\CChristensen\Desktop\NeDL\While Loops\bin\Debug\net6.0\While Loops.deps.json
+C:\Users\CChristensen\Desktop\NeDL\While Loops\bin\Debug\net6.0\While Loops.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\While Loops\bin\Debug\net6.0\While Loops.dll
+C:\Users\CChristensen\Desktop\NeDL\While Loops\bin\Debug\net6.0\ref\While Loops.dll
+C:\Users\CChristensen\Desktop\NeDL\While Loops\bin\Debug\net6.0\While Loops.pdb
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.dll
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\ref\While Loops.dll
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.pdb
+C:\Users\CChristensen\Desktop\NeDL\While Loops\obj\Debug\net6.0\While Loops.genruntimeconfig.cache

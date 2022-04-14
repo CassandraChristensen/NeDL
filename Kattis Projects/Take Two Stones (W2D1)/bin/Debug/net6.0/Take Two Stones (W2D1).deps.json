@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Take Two Stones (W2D1)/1.0.0": {
+        "runtime": {
+          "Take Two Stones (W2D1).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Take Two Stones (W2D1)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

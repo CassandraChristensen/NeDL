@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\bin\Debug\net6.0\IfElse with Loop.exe
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\bin\Debug\net6.0\IfElse with Loop.deps.json
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\bin\Debug\net6.0\IfElse with Loop.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\bin\Debug\net6.0\IfElse with Loop.dll
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\bin\Debug\net6.0\ref\IfElse with Loop.dll
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\bin\Debug\net6.0\IfElse with Loop.pdb
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.dll
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\ref\IfElse with Loop.dll
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.pdb
+C:\Users\CChristensen\Desktop\NeDL\IfElse with Loop\obj\Debug\net6.0\IfElse with Loop.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\bin\Debug\net6.0\Problem One (Competency Check).exe
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\bin\Debug\net6.0\Problem One (Competency Check).deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\bin\Debug\net6.0\Problem One (Competency Check).runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\bin\Debug\net6.0\Problem One (Competency Check).dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\bin\Debug\net6.0\ref\Problem One (Competency Check).dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\bin\Debug\net6.0\Problem One (Competency Check).pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\ref\Problem One (Competency Check).dll
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 1 Projects\Day 5 Projects\Problem One (Competency Check)\obj\Debug\net6.0\Problem One (Competency Check).genruntimeconfig.cache

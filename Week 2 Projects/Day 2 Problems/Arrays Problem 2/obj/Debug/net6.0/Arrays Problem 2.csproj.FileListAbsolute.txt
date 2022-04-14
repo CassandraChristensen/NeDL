@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\bin\Debug\net6.0\Arrays Problem 2.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\bin\Debug\net6.0\Arrays Problem 2.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\bin\Debug\net6.0\Arrays Problem 2.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\bin\Debug\net6.0\Arrays Problem 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\bin\Debug\net6.0\ref\Arrays Problem 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\bin\Debug\net6.0\Arrays Problem 2.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\ref\Arrays Problem 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Arrays Problem 2\obj\Debug\net6.0\Arrays Problem 2.genruntimeconfig.cache

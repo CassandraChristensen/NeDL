@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\bin\Debug\net6.0\Files In Class Exercise.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\bin\Debug\net6.0\Files In Class Exercise.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\bin\Debug\net6.0\Files In Class Exercise.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\bin\Debug\net6.0\Files In Class Exercise.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\bin\Debug\net6.0\ref\Files In Class Exercise.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\bin\Debug\net6.0\Files In Class Exercise.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\ref\Files In Class Exercise.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 2 Problems\Files In Class Exercise\obj\Debug\net6.0\Files In Class Exercise.genruntimeconfig.cache
