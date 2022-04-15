@@ -4,6 +4,17 @@ namespace MyApplication
 {
   class Program
   {
+    static int GetValidIntMethod (int lowRange, int highRange)
+    {
+        int value;
+        do
+        {
+            Console.WriteLine("Please enter a number between " + lowRange + " and " + highRange);
+            value = Convert.ToInt16(Console.ReadLine());
+        }
+        while (value < lowRange || value > highRange);
+        return value;
+    }
     static void Main(string[] args)
     {   
         //Declare variables 
@@ -109,7 +120,60 @@ namespace MyApplication
             
             else if (userChoiceString=="C" || userChoiceString=="c")
             {
-                Console.WriteLine("In the C/c area");
+                string addRestaurant = "";
+                int addRating = 0;
+                
+                    Console.WriteLine("In the C/c area");
+                    //Prompt the user to add a Restaurant 
+                    //Validate that they are entering a restaurant
+
+                    do
+                    {
+                        Console.WriteLine("Please enter a restaurant name.");
+                        addRestaurant = Console.ReadLine();
+                        if (addRestaurant == "")
+                            {
+                              Console.WriteLine("Entry was not valid, please enter a restaurant name.");
+                            }
+                    }
+                    while (addRestaurant == "");
+            
+                    
+                    
+
+                    bool spaceFound = false;
+                    for (int index = 0; index < 25; index++)
+                    {
+                        if ((restaurantName[index] == "" || restaurantName[index] == null) && spaceFound == false)
+                        {
+                            Console.WriteLine("There is space, name will be added.");
+                            restaurantName[index] = addRestaurant;
+                            spaceFound = true;
+                        }
+                    }
+                    if (spaceFound == false)
+                    {
+                        Console.WriteLine("Array is full. The Restaraunt Name will not be added. ");
+                    }
+                    //Prompt the user to add a Rating 
+                    //Validate that they are entering a rating and that the rating is between 1-5. Use GetValidIntMethod
+                   // do
+                   // {
+                        Console.WriteLine("Please enter a rating for the restaurant you just entered.");
+                        addRating = GetValidIntMethod(1,5);
+                   // } while (addRating != 0)
+
+                    bool spaceFound2 = false;
+                    for (int index = 0; index < 25; index++)
+                    {
+                        if ((restaurantRating[index] == 0) && spaceFound2 == false)
+                        {
+                            Console.WriteLine("Rating will be added.");
+                            restaurantRating[index] = addRating;
+                            spaceFound2 = true;
+                        }
+                    }
+               // } while (addRestaurant != aString || addRating != integer);
             }
 
          //To Do: Else if the option is an R or r then read a name from the array (if it's there)
