@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\bin\Debug\net6.0\Day 5 Competency Problem.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\bin\Debug\net6.0\Day 5 Competency Problem.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\bin\Debug\net6.0\Day 5 Competency Problem.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\bin\Debug\net6.0\Day 5 Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\bin\Debug\net6.0\ref\Day 5 Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\bin\Debug\net6.0\Day 5 Competency Problem.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\ref\Day 5 Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 2 Projects\Day 5 Competency Problem\obj\Debug\net6.0\Day 5 Competency Problem.genruntimeconfig.cache
