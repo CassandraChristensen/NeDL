@@ -81,6 +81,7 @@ namespace MyApplication
             else if (userChoiceString=="S" || userChoiceString=="s")  
             {
                 Console.WriteLine("In the S/s area");
+
             }
 
          //To Do: Else if the options is a C or c then add a name to the array of strings (if there's room)
@@ -95,24 +96,23 @@ namespace MyApplication
             else if (userChoiceString=="R" || userChoiceString=="r")   //Alec did this one in class, must stay the same.
             {
                 int index= 0;
-                //string myRating []= Array.ConvertAll.ToString(restaurantRating[index]);
-                string[] myRating = restaurantRating.Select(i => i.ToString()).ToArray();
                 Console.WriteLine("In the R/r area");
+
                 //Print a list of the restaurants and their ratings. 
                 //NO BLANK LINES IN THE LIST (or zero's... for the integer array)
                 for (index = 0; index < restaurantName.Length; index ++)
                 {
-                    string myIndex = Convert.ToString(index);
+                    //if statement to make sure that blank lines aren't printing for the restaurant name
                     if (!string.IsNullOrEmpty(restaurantName[index]))  
                     {
-                    Console.WriteLine(restaurantName[index]);
+                        Console.WriteLine(restaurantName[index]);
                     }
+                    //if statement to make sure that 0 lines aren't printing for the restaurant rating 
                     if (restaurantRating[index] != 0)
                     {
                         Console.WriteLine(restaurantRating[index]);
                     }
                 }
-
             }
 
          //To Do: Else if the option is a U or u then update a name in the array (if it's there)
