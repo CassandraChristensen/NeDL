@@ -54,21 +54,22 @@ namespace MyApplication
 
             if (userChoiceString=="L" || userChoiceString=="l")   //Alec did this one in class, must stay the same
             {
-                
                 Console.WriteLine("In the L/l area");
 
+                //Create streamreader so that info may be read from the txt file
                 StreamReader sr = new StreamReader(@"restaurant.txt");
                 
+                //Load the data into the arrays from the text file
                 for (int i = 0; i < restaurantName.Length; i++)
                 {
-                    restaurantName[i] = sr.ReadLine();
-                    restaurantRating[i] = Convert.ToInt32(sr.ReadLine());
+                    restaurantName[i] = sr.ReadLine();  //Loading Restaurant names into it string array
+                    restaurantRating[i] = Convert.ToInt32(sr.ReadLine());  //Loading Ratings into integer array
                 }
                 sr.Close();
                 
-                Console.WriteLine("Restaurant Names and their Ratings");
+                Console.WriteLine("Restaurant Names and their Ratings");  //This outputs the info to the console, just verifying that the info was loaded into the individual arrays
                 for (int i = 0; i < restaurantName.Length; i++)
-                {
+                {   
                     Console.WriteLine(restaurantName[i]);
                     Console.WriteLine(restaurantRating[i]);
                 }
@@ -93,35 +94,16 @@ namespace MyApplication
 
             else if (userChoiceString=="R" || userChoiceString=="r")   //Alec did this one in class, must stay the same.
             {
-                
+                int index= 0;
                 Console.WriteLine("In the R/r area");
-                //for (int index = 0; index < restaurantName.Length; index++)
-                //{
-                    //string s = "";
-                    //string myIndex = Convert.ToString(index);
-                    //if (myIndex == s)
-                    //{
-                        
-                   // } 
-
-
-                    //Console.WriteLine(restaurantName[index]);
-                //}
-                //for (int index = 0; index < restaurantRating.Length; index++)
-                //{
-                    //Console.WriteLine(restaurantRating[index]);
-               // }
-                
-                StreamReader sr = new StreamReader(@"restaurant.txt");
-                while (!sr.EndOfStream)
+                //Print a list of the restaurants and their ratings. 
+                //NO BLANK LINES IN THE LIST (or zero's... for the integer array)
+                for (index = 0; index < restaurantName.Length; index ++);
                 {
-                    int index = 0;
-                    restaurantName[index] = sr.ReadLine();
-                    if (!string.IsNullOrEmpty(restaurantName[index]))
+                    string myIndex = Convert.ToString(index);
+                    if (myIndex != " " || index != null)
                     {
-                        Console.WriteLine(restaurantName[index]);
-                        index ++; 
-                    }
+                    Console.WriteLine(restaurantName[index]);
                 }
 
             }
