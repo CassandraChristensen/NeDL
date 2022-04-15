@@ -95,7 +95,8 @@ namespace MyApplication
             else if (userChoiceString=="R" || userChoiceString=="r")   //Alec did this one in class, must stay the same.
             {
                 int index= 0;
-                string myRating = Convert.ToString(restaurantRating[index]);
+                //string myRating []= Array.ConvertAll.ToString(restaurantRating[index]);
+                string[] myRating = restaurantRating.Select(i => i.ToString()).ToArray();
                 Console.WriteLine("In the R/r area");
                 //Print a list of the restaurants and their ratings. 
                 //NO BLANK LINES IN THE LIST (or zero's... for the integer array)
@@ -106,7 +107,7 @@ namespace MyApplication
                     {
                     Console.WriteLine(restaurantName[index]);
                     }
-                    if (!string.IsNullOrEmpty(myRating[index]))
+                    if (restaurantRating[index] != 0)
                     {
                         Console.WriteLine(restaurantRating[index]);
                     }
