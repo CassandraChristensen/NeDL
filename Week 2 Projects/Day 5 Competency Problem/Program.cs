@@ -81,7 +81,28 @@ namespace MyApplication
             else if (userChoiceString=="S" || userChoiceString=="s")  
             {
                 Console.WriteLine("In the S/s area");
+                
+                //Create streamwriter. Since "using" do not need to open/close, "using" does that for you.
+                using (StreamWriter SW = File.CreateText("restaurant.txt"))
+                {
+                    //For loop to loop through each line of arrays
+                    for (int index = 0; index < 25; index++)
+                    {
+                        //If statement to make sure not saving any blank lines
+                        if (!string.IsNullOrEmpty(restaurantName[index]))
+                        {
+                            SW.WriteLine(restaurantName[index]);
+                        }
 
+                        //If statement to make sure not saving any blank lines
+                        if (restaurantRating[index] != 0)
+                        {
+                            SW.WriteLine(restaurantRating[index]);
+                        }
+                    }
+                }
+                //Output message to user notifying them that the file has been saved.
+                Console.WriteLine("The File has been saved.");
             }
 
          //To Do: Else if the options is a C or c then add a name to the array of strings (if there's room)
@@ -100,7 +121,7 @@ namespace MyApplication
 
                 //Print a list of the restaurants and their ratings. 
                 //NO BLANK LINES IN THE LIST (or zero's... for the integer array)
-                for (index = 0; index < restaurantName.Length; index ++)
+                for (index = 0; index < 25; index ++)
                 {
                     //if statement to make sure that blank lines aren't printing for the restaurant name
                     if (!string.IsNullOrEmpty(restaurantName[index]))  
