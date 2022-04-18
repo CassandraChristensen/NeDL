@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\bin\Debug\net6.0\FYI.exe
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\bin\Debug\net6.0\FYI.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\bin\Debug\net6.0\FYI.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\bin\Debug\net6.0\FYI.dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\bin\Debug\net6.0\ref\FYI.dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\bin\Debug\net6.0\FYI.pdb
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\ref\FYI.dll
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.pdb
+C:\Users\CChristensen\Desktop\NeDL\Kattis Projects\FYI\obj\Debug\net6.0\FYI.genruntimeconfig.cache
