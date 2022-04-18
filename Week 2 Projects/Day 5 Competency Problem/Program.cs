@@ -157,11 +157,10 @@ namespace MyApplication
                     }
                     //Prompt the user to add a Rating 
                     //Validate that they are entering a rating and that the rating is between 1-5. Use GetValidIntMethod
-                   // do
-                   // {
+                    
                         Console.WriteLine("Please enter a rating for the restaurant you just entered.");
                         addRating = GetValidIntMethod(1,5);
-                   // } while (addRating != 0)
+                    
 
                     bool spaceFound2 = false;
                     for (int index = 0; index < 25; index++)
@@ -205,6 +204,32 @@ namespace MyApplication
             else if (userChoiceString=="U" || userChoiceString=="u")
             {
                 Console.WriteLine("In the U/u area");
+
+                //Prompt the user for which restaurant they want to update the rating for 
+                Console.WriteLine("Please enter the name of the restaurant that you wish to update the rating for.");
+                string updateRestaurant = Console.ReadLine();
+
+                bool restaurantFound = false;
+
+                //Create a for loop to see if the restaurants name is found in the array 
+                for (int index = 0; index < restaurantName.Length; index++)
+                {
+                    if (restaurantName[index] == updateRestaurant)
+                    {   
+                        restaurantFound = true;  //Restaurant was Found, raise flag for bool. 
+                        Console.WriteLine("What do you wish to update the rating to");  //Prompt for new rating
+                        int updateRating = Convert.ToInt32(Console.ReadLine());
+                        restaurantRating[index] = updateRating;
+                    }
+                }
+                if (restaurantFound == true) //output message acknowledging restaurant was found and rating updated
+                {
+                    Console.WriteLine("This rating has been updated for you.");
+                }
+                else //outputting error message
+                {
+                    Console.WriteLine("The name you entered was not found, and therefore will not be updated.");
+                }
             }
 
          //To Do: Else if the option is a D or d then delete the name in the array (if it's there)  Get from the user a name, if it's there, change to a blank, then go and read it but without the name, then make sure save and read still have name removed.
@@ -212,6 +237,31 @@ namespace MyApplication
             else if (userChoiceString=="D" || userChoiceString=="d")
             {   
                 Console.WriteLine("In the D/d area");
+
+                //Prompt the user to enter the name they wish to delete
+                Console.WriteLine("Please enter the restaurant you wish to delete.");
+                string deleteRestaurant = Console.ReadLine();
+
+                bool restaurantFound = false;
+                //Create a for loop to make sure that the restaurant is found.
+                for (int index = 0; index < restaurantName.Length; index++)
+                {
+                    if (restaurantName[index] == deleteRestaurant)
+                    {
+                        restaurantFound = true;
+                        restaurantName[index] = "";
+                        restaurantRating[index] = 0;
+                    }
+                }
+                if (restaurantFound == true)
+                {
+                    Console.WriteLine("This restaurant will be deleted.");
+                }
+                else 
+                {
+                    Console.WriteLine("The restaruant name that was entered was not found and therefore will not be deleted.");
+                }
+
             }
 
          //To Do: Else if the option is a Q or q then quit the program 
