@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CChristensen\\Desktop\\NeDL\\helloworld\\helloworld.csproj",
+      "projectUniqueName": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 1 Projects\\Day 1 Projects\\helloworld\\helloworld.csproj",
       "projectName": "helloworld",
-      "projectPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\helloworld\\helloworld.csproj",
+      "projectPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 1 Projects\\Day 1 Projects\\helloworld\\helloworld.csproj",
       "packagesPath": "C:\\Users\\CChristensen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\helloworld\\obj\\",
+      "outputPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 1 Projects\\Day 1 Projects\\helloworld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CChristensen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\bin\Debug\net6.0\Music Collection Inheritance.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\bin\Debug\net6.0\Music Collection Inheritance.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\bin\Debug\net6.0\Music Collection Inheritance.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\bin\Debug\net6.0\Music Collection Inheritance.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\bin\Debug\net6.0\ref\Music Collection Inheritance.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\bin\Debug\net6.0\Music Collection Inheritance.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\ref\Music Collection Inheritance.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Music Collection Inheritance\obj\Debug\net6.0\Music Collection Inheritance.genruntimeconfig.cache

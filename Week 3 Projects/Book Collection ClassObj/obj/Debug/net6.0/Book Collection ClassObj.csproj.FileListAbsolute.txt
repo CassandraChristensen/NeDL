@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\bin\Debug\net6.0\Book Collection ClassObj.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\bin\Debug\net6.0\Book Collection ClassObj.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\bin\Debug\net6.0\Book Collection ClassObj.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\bin\Debug\net6.0\Book Collection ClassObj.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\bin\Debug\net6.0\ref\Book Collection ClassObj.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\bin\Debug\net6.0\Book Collection ClassObj.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\ref\Book Collection ClassObj.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Book Collection ClassObj\obj\Debug\net6.0\Book Collection ClassObj.genruntimeconfig.cache
