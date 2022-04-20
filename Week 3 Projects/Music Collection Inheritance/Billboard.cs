@@ -19,15 +19,21 @@ namespace MyApplication
     }
 
     //This is my constructor with values being passed
-    /* public Billboard( int aTopTen ) //: base(aArtistName, aSongTitle)
+    public Billboard( int aTopTen)//: base(aArtistName, aSongTitle)
     {
         topTen = aTopTen;
-    } */
+    }
 
     public override string ToString()
     {
-        return getName() + " has had " + topTen + " top ten Billboard Hot Rap Song hits. My favorite song of his is: " + SongTitle;
+        return getArtistName() + " has had " + topTen + " top ten Billboard Hot Rap Song hits. My favorite song of his is: " + SongTitle;
     }
+
+    public override void SingMethod ()
+    {
+        Console.WriteLine(getArtistName() + " croons.");
+    }
+
 
   } // class Billboard
 }  // namespace

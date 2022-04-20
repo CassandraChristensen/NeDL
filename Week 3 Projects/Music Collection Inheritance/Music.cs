@@ -14,12 +14,12 @@ namespace MyApplication
      private string songTitle; */
 
       private string artistName; //my field
-      public string getName()  //property longhand
+      public string getArtistName()  //data field
       {
           return artistName;
       }
 
-      public void setName (string ArtistName)
+      public void setArtistName (string ArtistName)
       {
           artistName = ArtistName;
       }
@@ -42,8 +42,8 @@ namespace MyApplication
       {
         artistName = aArtistName;
         songTitle = aSongTitle;
-     }
- */
+     } */
+
 
 
      //This overrides ToString so an object can be printed out with the WriteLine.
@@ -59,9 +59,11 @@ namespace MyApplication
       Console.WriteLine(artistName + " is the G.O.A.T.");
       }
 
-      public void SingMethod()
+      public virtual void SingMethod()
       {
-          Console.WriteLine("The artist sings in addition to rapping.");
+        Console.WriteLine(artistName + " raps.");
       }
+
+      
     }// class Music
 } // namespace

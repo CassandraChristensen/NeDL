@@ -18,19 +18,19 @@ namespace MyApplication
         
       //Create single objects to test that the class Music is working. Use get/set method though. Both short and long hand. 
       Music myMusic = new Music();
-      myMusic.setName("Eminem");
+      myMusic.setArtistName("Eminem");
       myMusic.SongTitle = "Stan";
 
       //Create an object to test that the class Stream is working.
       Stream myStream = new Stream ();
-      myStream.setName("Taylor Swift");
+      myStream.setArtistName("Taylor Swift");
       myStream.SongTitle = "All Too Well";
       myStream.numberStreams = 3100000000;
       myStream.mostStreamedAlbum = "Red";
 
       //Create an object to test that the class Billboard is working.
       Billboard myBillboard = new Billboard ();
-      myBillboard.setName("Billy Joel");
+      myBillboard.setArtistName("Billy Joel");
       myBillboard.SongTitle = "Goodnight my Angel";
       myBillboard.topTen = 3;
 
@@ -47,6 +47,12 @@ namespace MyApplication
       myStream.GoatMethod();
 
       myBillboard.GoatMethod();
+
+      myMusic.SingMethod();
+
+      myStream.SingMethod();
+
+      myBillboard.SingMethod();
 
 
     }

@@ -33,7 +33,12 @@ namespace MyApplication
 
     public override string ToString ()
     {
-        return getName() + " total number of streams on spotify is: " + numberStreams + " and their most streamed album is: " + mostStreamedAlbum + " while their most listened to song is: " + SongTitle;
+        return getArtistName() + " total number of streams on spotify is: " + numberStreams + " and their most streamed album is: " + mostStreamedAlbum + " while their most listened to song is: " + SongTitle;
+    }
+
+    public override void SingMethod ()
+    {
+        Console.WriteLine( getArtistName() + " sings.");
     }
 
 
