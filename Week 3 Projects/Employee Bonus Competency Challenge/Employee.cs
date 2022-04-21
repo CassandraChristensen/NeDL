@@ -6,8 +6,8 @@ namespace MyApplication
   {
       
       //Create my private fields and my properties using short hand. Because I am using shorthand, I do not need to find the field of the property.
-      public string LastName
-      { get; set; }
+      private string lastName;
+      
 
       public string FirstName
       { get; set; }
@@ -18,7 +18,7 @@ namespace MyApplication
       //Create my default constructor
       public Employee ()
       {
-          LastName = null;
+          lastName = null;
           FirstName = null; 
           EmployeeType = '\u0000';
       }
@@ -26,10 +26,22 @@ namespace MyApplication
       //Create my constructor that passes values
       public Employee (string aLastName, string aFirstName, char aEmployeeType)
       {
-          LastName = aLastName;
+          lastName = aLastName;
           FirstName = aFirstName;
           EmployeeType = aEmployeeType;
       }
+
+      //Create a get/set methods for employee lastName
+      public string getEmployeeLastName()
+      {
+          return lastName;
+      }
+
+      public void setEmployeeLastName( string anotherLastName)
+      {
+        lastName = anotherLastName;
+      }
+
       
       //Calculate the bonus 
       int employeeBonus = 0;
@@ -37,7 +49,7 @@ namespace MyApplication
       //Create my polymorphism. Use ToString Method.
       public override string ToString ()
       {
-          return FirstName + " " + LastName + " is an " + EmployeeType + " employee. Their bonus will be: " + employeeBonus + ".";
+          return FirstName + " " + lastName + " is an " + EmployeeType + " employee. Their bonus will be: " + employeeBonus + ".";
       }
 
     

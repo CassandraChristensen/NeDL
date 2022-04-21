@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\bin\Debug\net6.0\Alec's Restaurant.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\bin\Debug\net6.0\Alec's Restaurant.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\bin\Debug\net6.0\Alec's Restaurant.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\bin\Debug\net6.0\Alec's Restaurant.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\bin\Debug\net6.0\ref\Alec's Restaurant.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\bin\Debug\net6.0\Alec's Restaurant.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\ref\Alec's Restaurant.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Alec's Restaurant\obj\Debug\net6.0\Alec's Restaurant.genruntimeconfig.cache
