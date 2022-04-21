@@ -11,7 +11,16 @@ namespace MyApplication
         bool userChoice;
         string userChoiceString;
         Hourly [] hourlyArray = new Hourly [25];
+        /* for (int index = 0; index < hourlyArray.Length; index++)
+        {
+          hourlyArray[index] = new Hourly();
+        } */
+
         Salary [] salaryArray = new Salary [25];
+        /* for (int index = 0; index < salaryArray.Length; index++)
+        {
+          salaryArray[index] = new Salary();
+        } */
 
         /* Employee [] employeeArray = new Employee [25];
 
@@ -97,7 +106,10 @@ namespace MyApplication
             {
               for (int index = 0; index < salaryArray.Length; index++)
               {
-
+                //if (!(hourlyArray[index] == null))
+                {
+                  salaryArray[index] = new Salary (sr.ReadLine());
+                }
               }
             } */
           
