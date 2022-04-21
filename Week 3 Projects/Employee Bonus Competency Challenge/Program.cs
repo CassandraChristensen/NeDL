@@ -10,7 +10,7 @@ namespace MyApplication
         //Declare my variables
         bool userChoice;
         string userChoiceString;
-        Employee [] employeeArray = new Employee[5];
+        Employee [] employeeArray = new Employee[25];
 
         /* //Create a test object for Employee 
         Employee testEmployee = new Employee();   ///This is creating my object, and calling the default constructor to give default values to the fields.
@@ -95,6 +95,102 @@ namespace MyApplication
           else if (userChoiceString == "C" || userChoiceString == "c")
           {
             Console.WriteLine("in the C/c area.");
+            string addFirstName = "";
+            string addLastName = "";
+            char addEmployeeStatus = '\u0000';
+            float addHourlyPay = 0.00F;
+            int addSalaryPay = 0;
+
+            //Prompt the user for the employees First Name
+            do 
+            {
+              Console.WriteLine("Please enter the employees First Name.");
+              addFirstName = Console.ReadLine();
+              if (addFirstName == "")
+              {
+                Console.WriteLine("Entry was not valid, please enter the employees first name.");
+              }  
+            } while (addFirstName == "");
+
+
+            //Prompt the user to enter an employee last name 
+            do
+            {
+              Console.WriteLine("Please enter the employee's Last Name.");
+              addLastName = Console.ReadLine();
+              if (addLastName == "")
+              {
+                Console.WriteLine("Entry was not valid, please enter the employee's last name.");
+              } 
+            } while (addLastName == "");
+
+
+            //Prompt the user for the employees employment status
+            do
+            {
+              Console.WriteLine("Please enter in an H if the employee is Hourly and an S if the employee is salary.");
+              addEmployeeStatus = Convert.ToChar(Console.ReadLine());
+              if (addEmployeeStatus != 'H' && addEmployeeStatus != 'S')
+              {
+                Console.WriteLine("Entry was not valid, please enter the employee's employment status.");
+              }
+            } while (addEmployeeStatus != 'H' && addEmployeeStatus != 'S');
+
+            
+            //Prompt the user for the employee's wage
+            if (addEmployeeStatus == 'H' || addEmployeeStatus == 'h')
+            {
+              do
+              {
+
+                Console.WriteLine("Please enter the hourly pay for the employee.");
+                addHourlyPay = Convert.ToSingle(Console.ReadLine());
+                if (addHourlyPay < -1F || addHourlyPay > 1000F)
+                {
+                  Console.WriteLine("Entry was not valid, please enter the employee's hourly pay.");
+                }
+
+              }while (addHourlyPay < -1F || addHourlyPay > 1000F);
+  
+            }
+
+            else 
+            {
+              do
+              {
+                Console.WriteLine("Please enter the salary pay for the employee.");
+                addSalaryPay = Convert.ToInt32(Console.ReadLine());
+                if (addSalaryPay < -1 || addSalaryPay > 1000000000)
+                {
+                  Console.WriteLine("Entry was not valid, please enter teh employee's hourly pay.");
+                }
+              } while (addSalaryPay < -1 || addSalaryPay > 1000000000);
+            }
+            
+            
+
+            bool employeeFound = false;
+            for (int index = 0; index < employeeArray.Length; index++)
+            {
+              if ((employeeArray[index] == null) && employeeFound == false)
+              {
+                Console.WriteLine("There is space. The employee will be added.");
+                employeeArray[index].FirstName = addFirstName;
+                employeeArray[index].setEmployeeLastName(addLastName);
+                employeeArray[index].EmployeeType = addEmployeeStatus;
+                employeeArray[index] = new Salary () 
+                employeeFound = true;
+
+              }
+
+            }
+
+
+
+
+
+
+
           }
 
           //ToDo: Else if the option is an R or r then print a list of all of the employees including their calculated bonus.
@@ -142,7 +238,7 @@ namespace MyApplication
         
 
 
-        }
-  }
-}
+        } //main
+  } // program class
+} //namespace
 
