@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\bin\Debug\net6.0\Employee Bonus Competency Challenge.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\bin\Debug\net6.0\Employee Bonus Competency Challenge.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\bin\Debug\net6.0\Employee Bonus Competency Challenge.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\bin\Debug\net6.0\Employee Bonus Competency Challenge.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\bin\Debug\net6.0\ref\Employee Bonus Competency Challenge.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\bin\Debug\net6.0\Employee Bonus Competency Challenge.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\ref\Employee Bonus Competency Challenge.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 3 Projects\Employee Bonus Competency Challenge\obj\Debug\net6.0\Employee Bonus Competency Challenge.genruntimeconfig.cache
