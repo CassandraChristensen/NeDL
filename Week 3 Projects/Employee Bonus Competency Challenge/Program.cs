@@ -12,7 +12,9 @@ namespace MyApplication
         string userChoiceString;
         Employee [] employeeArray = new Employee[25];
 
-        /* //Create a test object for Employee 
+        /* Employee [] employeeArray = new Employee [25];
+
+        //Create a test object for Employee 
         Employee testEmployee = new Employee();   ///This is creating my object, and calling the default constructor to give default values to the fields.
         testEmployee.setEmployeeLastName("Christensen");
         testEmployee.FirstName = "Austin";
@@ -37,7 +39,12 @@ namespace MyApplication
         employeeArray[2] = testHourly;
         employeeArray[3] = testSalary;
         employeeArray[4] = new Salary( 55000, "Zac", "Champoux", 'S');
-        employeeArray[0] = new Hourly( 15.50F, "Trace", "Jensen", 'H'); */
+        employeeArray[0] = new Hourly( 15.50F, "Trace", "Jensen", 'H');
+
+        for (int index = 0; index < employeeArray.Length; index++)
+        {
+        Console.WriteLine(employeeArray[index]);
+        } */
 
         //Repeat main loop while the users choice does not equal Q or q
         do 
@@ -144,7 +151,8 @@ namespace MyApplication
               {
 
                 Console.WriteLine("Please enter the hourly pay for the employee.");
-                addHourlyPay = Convert.ToSingle(Console.ReadLine());
+                addHourlyPay = float.Parse(Console.ReadLine());
+                Console.WriteLine(addHourlyPay);
                 if (addHourlyPay < -1F || addHourlyPay > 1000F)
                 {
                   Console.WriteLine("Entry was not valid, please enter the employee's hourly pay.");
@@ -160,31 +168,51 @@ namespace MyApplication
               {
                 Console.WriteLine("Please enter the salary pay for the employee.");
                 addSalaryPay = Convert.ToInt32(Console.ReadLine());
-                if (addSalaryPay < -1 || addSalaryPay > 1000000000)
+                if (addSalaryPay < -1 || addSalaryPay > 10000000)
                 {
-                  Console.WriteLine("Entry was not valid, please enter teh employee's hourly pay.");
+                  Console.WriteLine("Entry was not valid, please enter the employee's hourly pay.");
                 }
-              } while (addSalaryPay < -1 || addSalaryPay > 1000000000);
+              } while (addSalaryPay < -1 || addSalaryPay > 10000000);
             }
             
             
-
-            bool employeeFound = false;
-            for (int index = 0; index < employeeArray.Length; index++)
+            if (addEmployeeStatus == 'H')
             {
-              if ((employeeArray[index] == null) && employeeFound == false)
+              bool employeeSpaceFound = false;
+              for (int index = 0; index < employeeArray.Length; index++)
               {
-                Console.WriteLine("There is space. The employee will be added.");
-                employeeArray[index].FirstName = addFirstName;
-                employeeArray[index].setEmployeeLastName(addLastName);
-                employeeArray[index].EmployeeType = addEmployeeStatus;
-                employeeArray[index] = new Salary () 
-                employeeFound = true;
+                if ((employeeArray[index] == null) && employeeSpaceFound == false)
+                {
+                  Console.WriteLine("There is space. The employee will be added.");
+                  employeeArray[index] = new Hourly (addHourlyPay, addFirstName, addLastName, addEmployeeStatus);
+                  //employeeArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
+                  employeeSpaceFound = true;
 
+                }
               }
-
+              if (employeeSpaceFound == false)
+              {
+                Console.WriteLine("Employee array is full. Employee information will not be added.");
+              } 
             }
+            else 
+            {
+              bool employeeSpaceFound = false;
+              for (int index = 0; index < employeeArray.Length; index++)
+              {
+                if ((employeeArray[index] == null) && employeeSpaceFound == false)
+                {
+                  Console.WriteLine("There is space. The employee will be added.");
+                  employeeArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
+                  employeeSpaceFound = true;
 
+                }
+              }
+              if (employeeSpaceFound == false)
+              {
+                Console.WriteLine("Employee array is full. Employee information will not be added.");
+              } 
+            }
 
 
 
