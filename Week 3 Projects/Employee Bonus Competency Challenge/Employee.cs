@@ -5,7 +5,7 @@ namespace MyApplication
   class Employee
   {
       
-      //Create my private fields and my properties using short hand. Because I am using shorthand, I do not need to find the field of the property.
+      //Create my private fields and my properties using short hand. Because I am using shorthand, I do not need to define the field of the property.
       private string lastName;
       
 
@@ -20,7 +20,7 @@ namespace MyApplication
       {
           lastName = null;
           FirstName = null; 
-          EmployeeType = '\u0000';
+          EmployeeType = '\0';
       }
       
       //Create my constructor that passes values

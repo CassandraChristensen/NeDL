@@ -11,50 +11,16 @@ namespace MyApplication
         bool userChoice;
         string userChoiceString;
         Hourly [] hourlyArray = new Hourly [25];
-        /* for (int index = 0; index < hourlyArray.Length; index++)
+        for (int index = 0; index < hourlyArray.Length; index++)
         {
           hourlyArray[index] = new Hourly();
-        } */
+        }
 
         Salary [] salaryArray = new Salary [25];
-        /* for (int index = 0; index < salaryArray.Length; index++)
+        for (int index = 0; index < salaryArray.Length; index++)
         {
           salaryArray[index] = new Salary();
-        } */
-
-        /* Employee [] employeeArray = new Employee [25];
-
-        //Create a test object for Employee 
-        Employee testEmployee = new Employee();   ///This is creating my object, and calling the default constructor to give default values to the fields.
-        testEmployee.setEmployeeLastName("Christensen");
-        testEmployee.FirstName = "Austin";
-        testEmployee.EmployeeType = 'E';
-
-        //Create a test object for Hourly 
-        Hourly testHourly = new Hourly ();
-        testHourly.setEmployeeLastName("Weisser");
-        testHourly.FirstName = "Lauren";
-        testHourly.EmployeeType = 'H';
-        testHourly.HourlyPay = 18.96F;
-
-        //Create a test object for Salary
-        Salary testSalary = new Salary (); 
-        testSalary.setEmployeeLastName("Crandall");
-        testSalary.FirstName = "Stephanie";
-        testSalary.EmployeeType = 'S';
-        testSalary.SalaryPay = 65000;
-        
-        //Create an array for employee
-        employeeArray[1] = testEmployee;
-        employeeArray[2] = testHourly;
-        employeeArray[3] = testSalary;
-        employeeArray[4] = new Salary( 55000, "Zac", "Champoux", 'S');
-        employeeArray[0] = new Hourly( 15.50F, "Trace", "Jensen", 'H');
-
-        for (int index = 0; index < employeeArray.Length; index++)
-        {
-        Console.WriteLine(employeeArray[index]);
-        } */
+        }
 
         //Repeat main loop while the users choice does not equal Q or q
         do 
@@ -100,20 +66,78 @@ namespace MyApplication
           if (userChoiceString == "L" || userChoiceString == "l")
           {
             Console.WriteLine("In the L/l area");
-            
-            //Create a streamreader so that info may be read from the text file
-            /* using (StreamReader sr = File.OpenText("employee.txt"))
-            {
-              for (int index = 0; index < salaryArray.Length; index++)
-              {
-                //if (!(hourlyArray[index] == null))
-                {
-                  salaryArray[index] = new Salary (sr.ReadLine());
-                }
-              }
-            } */
           
+            //Create a streamreader so that info may be read from the text file
+            using (StreamReader sr = File.OpenText("employee.txt"))
+            {
+                
+                
+                int salaryIndex = 0;
+                int hourlyIndex = 0;
 
+                string lastName;
+                string firstName;
+                char employeeType;
+                float hourlyPay;
+                int salaryPay;
+				
+                while ((firstName = sr.ReadLine()) != null)
+                {
+                    
+                    lastName = sr.ReadLine();
+                    employeeType = Convert.ToChar(sr.ReadLine());
+                    if (employeeType == 'H')
+                    {
+                      hourlyPay = Convert.ToSingle(sr.ReadLine());
+
+                      //Now you can load into the arrays
+                      hourlyArray[hourlyIndex].FirstName = firstName;
+                      hourlyArray[hourlyIndex].setEmployeeLastName(lastName);
+                      hourlyArray[hourlyIndex].EmployeeType = employeeType;
+                      hourlyArray[hourlyIndex].HourlyPay = hourlyPay;
+
+                      hourlyIndex = hourlyIndex + 1;
+                    }
+                    else
+                    {
+                      salaryPay = Convert.ToInt32(sr.ReadLine());
+                      
+
+                      //Now load inito the the array
+                      salaryArray[salaryIndex].FirstName = firstName;
+                      salaryArray[salaryIndex].setEmployeeLastName(lastName);
+                      salaryArray[salaryIndex].EmployeeType = employeeType;
+                      salaryArray[salaryIndex].SalaryPay = salaryPay;
+
+                      salaryIndex = salaryIndex + 1;
+                    }
+                    
+
+                    /* salaryArray[index].FirstName = s;
+                    salaryArray[index].setEmployeeLastName(s);
+                    salaryArray[index].EmployeeType = Convert.ToChar('\u0000');
+                    salaryArray[index].SalaryPay = Convert.ToInt32(i); 
+                    hourlyArray[index].FirstName = s;
+                    hourlyArray[index].setEmployeeLastName(s);
+                    hourlyArray[index].EmployeeType = Convert.ToChar(c);
+                    hourlyArray[index].HourlyPay = Convert.ToSingle(f);  */ 
+                    
+                    //index = index + 1;
+                }
+                    Console.WriteLine(" Here is the content of the file employee.txt : ");
+                    Console.WriteLine("");
+                    for (int index = 0; index <25; index ++)
+                    {
+                    Console.WriteLine(hourlyArray[index]);
+                    Console.WriteLine(salaryArray[index]);
+                    
+                    }
+                    Console.WriteLine("");
+
+            }
+
+            
+            
 
           }
 
@@ -121,6 +145,32 @@ namespace MyApplication
           else if (userChoiceString == "S" || userChoiceString == "s")
           {
             Console.WriteLine("In the S/s area");
+            using (StreamWriter sw = File.CreateText("employee.txt"))
+            {
+              //For loop to loop through each line of arrays
+              
+              for (int index = 0; index < hourlyArray.Length; index++)
+              {
+                if (!(((hourlyArray[index]).getEmployeeLastName())==null))
+                {
+                  sw.WriteLine(hourlyArray[index].FirstName);
+                  sw.WriteLine(hourlyArray[index].getEmployeeLastName());
+                  sw.WriteLine(hourlyArray[index].EmployeeType);
+                  sw.WriteLine(hourlyArray[index].HourlyPay);
+                }
+
+                if (!(((salaryArray[index]).getEmployeeLastName())==null))
+                {
+                  sw.WriteLine(salaryArray[index].FirstName);
+                  sw.WriteLine(salaryArray[index].getEmployeeLastName());
+                  sw.WriteLine(salaryArray[index].EmployeeType);
+                  sw.WriteLine(salaryArray[index].SalaryPay);
+                }
+              }
+              
+
+
+            }
           }
 
           //ToDo: Else if the option is C or c then add an employee to the array (if there's room)
@@ -129,7 +179,7 @@ namespace MyApplication
             Console.WriteLine("in the C/c area.");
             string addFirstName = "";
             string addLastName = "";
-            char addEmployeeStatus = '\u0000';
+            char addEmployeeStatus = '\0';
             float addHourlyPay = 0.00F;
             int addSalaryPay = 0;
 
@@ -205,11 +255,14 @@ namespace MyApplication
               bool employeeSpaceFound = false;
               for (int index = 0; index < hourlyArray.Length; index++)
               {
-                if ((hourlyArray[index] == null) && employeeSpaceFound == false)
+                if ((hourlyArray[index].getEmployeeLastName() == null) && employeeSpaceFound == false)
                 {
                   Console.WriteLine("There is space. The employee will be added.");
-                  hourlyArray[index] = new Hourly (addHourlyPay, addFirstName, addLastName, addEmployeeStatus);
-                  //employeeArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
+                  //hourlyArray[index] = new Hourly (addHourlyPay, addFirstName, addLastName, addEmployeeStatus);
+                  hourlyArray[index].FirstName = addFirstName;
+                  hourlyArray[index].setEmployeeLastName(addLastName);
+                  hourlyArray[index].EmployeeType = addEmployeeStatus;
+                  hourlyArray[index].HourlyPay = addHourlyPay;
                   employeeSpaceFound = true;
 
                 }
@@ -224,10 +277,14 @@ namespace MyApplication
               bool employeeSpaceFound = false;
               for (int index = 0; index < salaryArray.Length; index++)
               {
-                if ((salaryArray[index] == null) && employeeSpaceFound == false)
+                if ((salaryArray[index].getEmployeeLastName() == null) && employeeSpaceFound == false)
                 {
                   Console.WriteLine("There is space. The employee will be added.");
-                  salaryArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
+                  //salaryArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
+                  salaryArray[index].FirstName = addFirstName;
+                  salaryArray[index].setEmployeeLastName(addLastName);
+                  salaryArray[index].EmployeeType = addEmployeeStatus;
+                  salaryArray[index].SalaryPay = addSalaryPay;
                   employeeSpaceFound = true;
 
                 }
@@ -243,21 +300,20 @@ namespace MyApplication
 
             else if (userChoiceString=="R" || userChoiceString=="r")
             {
-                Console.WriteLine("In the R/r area");
+                Console.WriteLine("");
+
                 for (int index = 0; index < salaryArray.Length; index++)
                 {
-                  if (!(hourlyArray[index]==null))
-                  {
-                    Console.WriteLine(hourlyArray[index]);
-                  } 
-                }
-                for (int index = 0; index < salaryArray.Length; index++)
-                {
-                  if (!(salaryArray[index]==null))
-                  {
+                  if (!(((salaryArray[index]).getEmployeeLastName())==null))
                     Console.WriteLine(salaryArray[index]);
-                  } 
                 }
+
+                for (int index = 0; index < hourlyArray.Length; index++)
+                {
+                  if (!(((hourlyArray[index]).getEmployeeLastName())==null))
+                    Console.WriteLine(hourlyArray[index]);
+                }
+                Console.WriteLine("");
             }
         //  ToDo: Else if the option is a U or u then update information for an employee in the array (if it's there)
 

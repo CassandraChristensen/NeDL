@@ -5,7 +5,7 @@ namespace MyApplication
   class Hourly : Employee // derived(child) : base(parent)
   {
       
-      //Create my private fields and my properties using short hand. Because I am using shorthand, I do not need to find the field of the property.
+      //Create my private fields and my properties using short hand. Because I am using shorthand, I do not need to define the field of the property.
       public float HourlyPay
       { get; set; }
  
