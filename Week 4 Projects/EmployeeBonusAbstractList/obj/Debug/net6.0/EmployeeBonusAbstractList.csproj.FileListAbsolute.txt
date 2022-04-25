@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\bin\Debug\net6.0\EmployeeBonusAbstractList.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\bin\Debug\net6.0\EmployeeBonusAbstractList.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\bin\Debug\net6.0\EmployeeBonusAbstractList.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\bin\Debug\net6.0\EmployeeBonusAbstractList.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\bin\Debug\net6.0\ref\EmployeeBonusAbstractList.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\bin\Debug\net6.0\EmployeeBonusAbstractList.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\ref\EmployeeBonusAbstractList.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusAbstractList\obj\Debug\net6.0\EmployeeBonusAbstractList.genruntimeconfig.cache
