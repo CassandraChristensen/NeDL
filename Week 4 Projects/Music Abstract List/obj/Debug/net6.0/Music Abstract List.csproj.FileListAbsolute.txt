@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\bin\Debug\net6.0\Music Abstract List.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\bin\Debug\net6.0\Music Abstract List.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\bin\Debug\net6.0\Music Abstract List.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\bin\Debug\net6.0\Music Abstract List.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\bin\Debug\net6.0\ref\Music Abstract List.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\bin\Debug\net6.0\Music Abstract List.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\ref\Music Abstract List.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Music Abstract List\obj\Debug\net6.0\Music Abstract List.genruntimeconfig.cache
