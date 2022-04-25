@@ -10,6 +10,8 @@ namespace MyApplication
         //Declare my variables
         bool userChoice;
         string userChoiceString;
+
+        //create my array and instantiate each object in the array
         Hourly [] hourlyArray = new Hourly [25];
         for (int index = 0; index < hourlyArray.Length; index++)
         {
@@ -71,21 +73,24 @@ namespace MyApplication
             using (StreamReader sr = File.OpenText("employee.txt"))
             {
                 
-                
+                //Since there are two different arrays that i'm cycling through, created two separate indexes to put the objects into the array
                 int salaryIndex = 0;
                 int hourlyIndex = 0;
 
-                string lastName;
+                
                 string firstName;
+                string lastName;
                 char employeeType;
                 float hourlyPay;
                 int salaryPay;
 				
-                while ((firstName = sr.ReadLine()) != null)
+                while ((firstName = sr.ReadLine()) != null)  //this ensures that i'm not reading any blank lines. Reading text file into variable which i will then put into object and array
                 {
                     
                     lastName = sr.ReadLine();
                     employeeType = Convert.ToChar(sr.ReadLine());
+
+
                     if (employeeType == 'H')
                     {
                       hourlyPay = Convert.ToSingle(sr.ReadLine());
