@@ -4,6 +4,16 @@ namespace MyApplication
 {
   class Program
   {
+      public static int search (string[] arr, string x)
+      {
+          int n = arr.Length;
+          for (int i = 0; i < n; i++)
+          {
+              if (arr[i] == x)
+              return i;
+          }
+          return -1;
+      }
     static void Main(string[] args)
     {
 
@@ -328,7 +338,133 @@ namespace MyApplication
             else if (userChoiceString=="U" || userChoiceString=="u")
             {
                 Console.WriteLine("In the U/u area");
-            }
+
+                
+                
+
+                //Prompt the user for the employee they wish to update
+                Console.WriteLine("Please enter the last name of the employee that you would like to update information for. ");
+                string updateEmployeeLastName = Console.ReadLine();
+
+                bool lastNameFound = false;
+
+                Console.WriteLine("Please enter the first name of the employee that you would like to update information for. ");
+                string updateEmployeeFirstName = Console.ReadLine();
+
+                bool employeeFound = false; 
+
+                //Create a for loop to see if the employee is found in the array 
+                int[] arr = { 2, 3, 4, 10, 40 };
+                int x = 10;
+ 
+                // Function call
+                int result = search(arr, x);
+                if (result == -1)
+                 Console.WriteLine(
+                "Element is not present in array");
+                else
+                 Console.WriteLine("Element is present at index " + result);
+
+                for (int index = 0; index < 25; index++)
+                {
+                    if (salaryArray[index].FirstName == updateEmployeeLastName)
+                    {
+                        employeeFound = true;
+                        
+                        Console.WriteLine("Please enter the number for what you wish to update: 1: First Name, 2: Last Name, 3: Employment Status, 4: Hourly Pay or 5: Salary Pay ");
+                        int updateOption = Convert.ToInt32(Console.ReadLine());
+
+                        switch (updateOption)
+                        {
+                            case 1: 
+                                Console.WriteLine("What do you wish to update the employee's first name to? ");
+                                string updateFirstName = Console.ReadLine();
+                                break;
+                            case 2: 
+                                Console.WriteLine("What do you wish to update the employee's last name to?");
+                                string updateLastName = Console.ReadLine();
+                                break;
+                            case 3: 
+                                Console.WriteLine("What do you wish to update the employee's employment status to? H for Hourly and S for Salary");
+                                char updateEmploymentStatus = Convert.ToChar(Console.ReadLine());
+                                if (updateEmploymentStatus == 'H')
+                                {
+                                    Console.WriteLine("What is the employee's Hourly Pay?");
+                                    float updateHourlyPay = Convert.ToSingle(Console.ReadLine());
+                                }
+                                else 
+                                {
+                                    Console.WriteLine("What is the employee's Salary Pay?");
+                                    int updateSalaryPay = Convert.ToInt32(Console.ReadLine());
+                                }
+
+                                break;
+
+                            case 4: 
+                                Console.WriteLine("What would you like to update the employee's Hourly Pay to?");
+                                float updateHourlyPay2 = Convert.ToSingle(Console.ReadLine());
+                                break;
+                            
+                            case 5:
+                                Console.WriteLine("What is the employee's Salary Pay?");
+                                int updateSalaryPay2 = Convert.ToInt32(Console.ReadLine());
+                                break;
+
+                        } //switch
+                    } //if
+                    else if ((hourlyArray[index].getEmployeeLastName() == updateEmployeeLastName) && employeeFound == false)
+                    {
+                        employeeFound = true;
+                        Console.WriteLine("Please enter the number for what you wish to update: 1: First Name, 2: Last Name, 3: Employment Status, 4: Hourly Pay or 5: Salary Pay ");
+                        int updateOption = Convert.ToInt32(Console.ReadLine());
+
+                        switch (updateOption)
+                        {
+                            case 1: 
+                                Console.WriteLine("What do you wish to update the employee's first name to? ");
+                                string updateFirstName = Console.ReadLine();
+                                break;
+                            case 2: 
+                                Console.WriteLine("What do you wish to update the employee's last name to?");
+                                string updateLastName = Console.ReadLine();
+                                break;
+                            case 3: 
+                                Console.WriteLine("What do you wish to update the employee's employment status to? H for Hourly and S for Salary");
+                                char updateEmploymentStatus = Convert.ToChar(Console.ReadLine());
+                                if (updateEmploymentStatus == 'H')
+                                {
+                                    Console.WriteLine("What is the employee's Hourly Pay?");
+                                    float updateHourlyPay = Convert.ToSingle(Console.ReadLine());
+                                }
+                                else 
+                                {
+                                    Console.WriteLine("What is the employee's Salary Pay?");
+                                    int updateSalaryPay = Convert.ToInt32(Console.ReadLine());
+                                }
+
+                                break;
+
+                            case 4: 
+                                Console.WriteLine("What would you like to update the employee's Hourly Pay to?");
+                                float updateHourlyPay2 = Convert.ToSingle(Console.ReadLine());
+                                break;
+                            
+                            case 5:
+                                Console.WriteLine("What is the employee's Salary Pay?");
+                                int updateSalaryPay2 = Convert.ToInt32(Console.ReadLine());
+                                break;
+                        } //switch
+                    } //else if
+            }// for
+                if (employeeFound == true)
+                {
+                    Console.WriteLine("This information has been updated for you.");
+                }
+                else
+                {
+                    Console.WriteLine("Employee was not found."); 
+                }
+            }// else if
 
         //  TODO: Else if the option is a D or d then delete the name in the array (if it's there)
 

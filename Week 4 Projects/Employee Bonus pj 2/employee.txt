@@ -5,16 +5,4 @@ H
 Stephanie
 Crandall
 S
-65000
-Trace
-Jensen
-H
-12.2
-Lauren
-Weisser
-S
-45000
-Christensen
-austin
-H
-20
+6500
