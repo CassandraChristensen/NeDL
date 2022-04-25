@@ -13,16 +13,16 @@ namespace MyApplication
 
         //create my array and instantiate each object in the array
         Hourly [] hourlyArray = new Hourly [25];
-        for (int index = 0; index < hourlyArray.Length; index++)
+        /* for (int index = 0; index < hourlyArray.Length; index++)
         {
           hourlyArray[index] = new Hourly();
-        }
+        } */
 
         Salary [] salaryArray = new Salary [25];
-        for (int index = 0; index < salaryArray.Length; index++)
+        /* for (int index = 0; index < salaryArray.Length; index++)
         {
           salaryArray[index] = new Salary();
-        }
+        } */
 
         //Repeat main loop while the users choice does not equal Q or q
         do 
@@ -94,12 +94,14 @@ namespace MyApplication
                     if (employeeType == 'H')
                     {
                       hourlyPay = Convert.ToSingle(sr.ReadLine());
+                      hourlyArray[hourlyIndex] = new Hourly (hourlyPay, firstName, lastName, employeeType);
 
                       //Now you can load into the arrays
-                      hourlyArray[hourlyIndex].FirstName = firstName;
+                      /* hourlyArray[hourlyIndex].FirstName = firstName;
                       hourlyArray[hourlyIndex].setEmployeeLastName(lastName);
                       hourlyArray[hourlyIndex].EmployeeType = employeeType;
-                      hourlyArray[hourlyIndex].HourlyPay = hourlyPay;
+                      hourlyArray[hourlyIndex].HourlyPay = hourlyPay; */
+
 
                       hourlyIndex = hourlyIndex + 1;
                     }
@@ -107,12 +109,12 @@ namespace MyApplication
                     {
                       salaryPay = Convert.ToInt32(sr.ReadLine());
                       
-
+                      salaryArray[salaryIndex] = new Salary (salaryPay, firstName, lastName, employeeType);
                       //Now load inito the the array
-                      salaryArray[salaryIndex].FirstName = firstName;
+                      /* salaryArray[salaryIndex].FirstName = firstName;
                       salaryArray[salaryIndex].setEmployeeLastName(lastName);
                       salaryArray[salaryIndex].EmployeeType = employeeType;
-                      salaryArray[salaryIndex].SalaryPay = salaryPay;
+                      salaryArray[salaryIndex].SalaryPay = salaryPay; */
 
                       salaryIndex = salaryIndex + 1;
                     }
@@ -156,7 +158,7 @@ namespace MyApplication
               
               for (int index = 0; index < hourlyArray.Length; index++)
               {
-                if (!(((hourlyArray[index]).getEmployeeLastName())==null))
+                if (!(hourlyArray[index] == null))
                 {
                   sw.WriteLine(hourlyArray[index].FirstName);
                   sw.WriteLine(hourlyArray[index].getEmployeeLastName());
@@ -164,7 +166,7 @@ namespace MyApplication
                   sw.WriteLine(hourlyArray[index].HourlyPay);
                 }
 
-                if (!(((salaryArray[index]).getEmployeeLastName())==null))
+                if (!(salaryArray[index]==null))
                 {
                   sw.WriteLine(salaryArray[index].FirstName);
                   sw.WriteLine(salaryArray[index].getEmployeeLastName());
@@ -260,14 +262,14 @@ namespace MyApplication
               bool employeeSpaceFound = false;
               for (int index = 0; index < hourlyArray.Length; index++)
               {
-                if ((hourlyArray[index].getEmployeeLastName() == null) && employeeSpaceFound == false)
+                if ((hourlyArray[index] == null) && employeeSpaceFound == false)
                 {
                   Console.WriteLine("There is space. The employee will be added.");
-                  //hourlyArray[index] = new Hourly (addHourlyPay, addFirstName, addLastName, addEmployeeStatus);
-                  hourlyArray[index].FirstName = addFirstName;
-                  hourlyArray[index].setEmployeeLastName(addLastName);
-                  hourlyArray[index].EmployeeType = addEmployeeStatus;
-                  hourlyArray[index].HourlyPay = addHourlyPay;
+                  hourlyArray[index] = new Hourly (addHourlyPay, addFirstName, addLastName, addEmployeeStatus);
+                  //hourlyArray[index].FirstName = addFirstName;
+                  //hourlyArray[index].setEmployeeLastName(addLastName);
+                  //hourlyArray[index].EmployeeType = addEmployeeStatus;
+                  //hourlyArray[index].HourlyPay = addHourlyPay;
                   employeeSpaceFound = true;
 
                 }
@@ -282,14 +284,14 @@ namespace MyApplication
               bool employeeSpaceFound = false;
               for (int index = 0; index < salaryArray.Length; index++)
               {
-                if ((salaryArray[index].getEmployeeLastName() == null) && employeeSpaceFound == false)
+                if ((salaryArray[index] == null) && employeeSpaceFound == false)
                 {
                   Console.WriteLine("There is space. The employee will be added.");
-                  //salaryArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
-                  salaryArray[index].FirstName = addFirstName;
-                  salaryArray[index].setEmployeeLastName(addLastName);
-                  salaryArray[index].EmployeeType = addEmployeeStatus;
-                  salaryArray[index].SalaryPay = addSalaryPay;
+                  salaryArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
+                  //salaryArray[index].FirstName = addFirstName;
+                  //salaryArray[index].setEmployeeLastName(addLastName);
+                  //salaryArray[index].EmployeeType = addEmployeeStatus;
+                  //salaryArray[index].SalaryPay = addSalaryPay;
                   employeeSpaceFound = true;
 
                 }
@@ -309,13 +311,14 @@ namespace MyApplication
 
                 for (int index = 0; index < salaryArray.Length; index++)
                 {
-                  if (!(((salaryArray[index]).getEmployeeLastName())==null))
-                    Console.WriteLine(salaryArray[index]);
+                  if (!(salaryArray[index]==null))  //since each space in the ray does not have an object instantiated in it, i'm checking to see if the index of the array is null
+                    Console.WriteLine(salaryArray[index]);  //not checking to see if the variable/field of the object etc is null.
+                    
                 }
 
                 for (int index = 0; index < hourlyArray.Length; index++)
                 {
-                  if (!(((hourlyArray[index]).getEmployeeLastName())==null))
+                  if (!(hourlyArray[index]==null))
                     Console.WriteLine(hourlyArray[index]);
                 }
                 Console.WriteLine("");

@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\bin\Debug\net6.0\Employee Bonus pj 2.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\bin\Debug\net6.0\Employee Bonus pj 2.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\bin\Debug\net6.0\Employee Bonus pj 2.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\bin\Debug\net6.0\Employee Bonus pj 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\bin\Debug\net6.0\ref\Employee Bonus pj 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\bin\Debug\net6.0\Employee Bonus pj 2.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\ref\Employee Bonus pj 2.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\Employee Bonus pj 2\obj\Debug\net6.0\Employee Bonus pj 2.genruntimeconfig.cache
