@@ -11,6 +11,9 @@ namespace MyApplication
     public string FirstName
     { get; set; }
 
+    public char Genre
+    { get; set; }
+
     public string BookTitle
     { get; set; }
 
@@ -23,15 +26,17 @@ namespace MyApplication
     {
         LastName = "";
         FirstName = "";
+        Genre = '\u0000';
         BookTitle = "";
         PublishingCompany = "";
     }
 
     //Create my constructor with parameters 
-    public Author (string newLastName, string newFirstName, string newBookTitle, string newPublishingCompany)
+    public Author (string newLastName, string newFirstName, char newGenre, string newBookTitle, string newPublishingCompany)
     {
         LastName = newLastName;
         FirstName = newFirstName;
+        Genre = newGenre;
         BookTitle = newBookTitle;
         PublishingCompany = newPublishingCompany;
         
@@ -43,7 +48,7 @@ namespace MyApplication
     //Create my polymorphism ToString() Method
     public override string ToString()
     {
-        return "The authors name is: " + LastName + ", " + FirstName + ". | A book title by them is: " + BookTitle + ". | Their publishing company is: " + PublishingCompany + ".";
+        return "The authors name is: " + LastName + ", " + FirstName + ". | Their Genre is: " + Genre + " A book title by them is: " + BookTitle + ". | Their publishing company is: " + PublishingCompany + ".";
     }
     
   }

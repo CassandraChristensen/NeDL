@@ -19,7 +19,7 @@ namespace MyApplication
    }
 
    //Create my constructor with parameters
-   public FantasyAuthor (string newLastName, string newFirstName, string newBookTitle, string newPublishingCompany, int newGoodreadsChoiceAwardsBestFanstasyYearWon, double newAveragePublished) : base(newLastName, newFirstName, newBookTitle, newPublishingCompany)
+   public FantasyAuthor (string newLastName, string newFirstName, char newGenre, string newBookTitle, string newPublishingCompany, int newGoodreadsChoiceAwardsBestFanstasyYearWon, double newAveragePublished) : base(newLastName, newFirstName, newGenre, newBookTitle, newPublishingCompany)
    {
        GoodreadsChoiceAwardsBestFanstasyYearWon = newGoodreadsChoiceAwardsBestFanstasyYearWon;
        AveragePublished = newAveragePublished;
