@@ -133,14 +133,12 @@ namespace MyApplication
                     }
                    
                     foreach (FantasyAuthor anAuthor in fantasyAuthorList)
-                    {
-                        if (!(fantasyAuthorList != null))
+                    {   
                         Console.WriteLine(anAuthor);
                     }
 
                     foreach (ContemporaryAuthor anAuthor in contemporaryAuthorList)
                     {
-                        if (!(contemporaryAuthorList != null))
                         Console.WriteLine(anAuthor);
                     }
 
