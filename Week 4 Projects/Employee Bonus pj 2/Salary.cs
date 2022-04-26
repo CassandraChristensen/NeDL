@@ -17,7 +17,7 @@ namespace MyApplication
       }
       
       //Create my constructor that passes values
-      public Salary (int aSalaryPay, string aFirstName, string aLastName, char aEmployeeType): base(aFirstName, aLastName, aEmployeeType)
+      public Salary (int aSalaryPay, string aLastName, string aFirstName, char aEmployeeType): base(aLastName, aFirstName, aEmployeeType)
       {
           SalaryPay = aSalaryPay;
       }
@@ -35,7 +35,7 @@ namespace MyApplication
       //Create my polymorphism. Use ToString Method.
       public override string ToString ()
       {
-          return FirstName + " " + getEmployeeLastName() + " is an " + EmployeeType + " employee. Their bonus will be: " + SalaryBonusMethod() + ".";
+          return getEmployeeLastName() + " " + FirstName + " is an " + EmployeeType + " employee. Their bonus will be: " + SalaryBonusMethod() + ".";
       }
 
     

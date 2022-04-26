@@ -49,7 +49,7 @@ namespace MyApplication
       //Create my polymorphism. Use ToString Method.
       public override string ToString ()
       {
-          return FirstName + " " + lastName + " is an " + EmployeeType + " employee. Their bonus will be: " + employeeBonus + ".";
+          return lastName + " " + FirstName + " is an " + EmployeeType + " employee. Their bonus will be: " + employeeBonus + ".";
       }
 
     

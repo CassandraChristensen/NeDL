@@ -4,7 +4,7 @@ namespace MyApplication
 {
   class Program
   {
-      public static int search (string[] arr, string x)
+      /* public static int search (string[] arr, string x)
       {
           int n = arr.Length;
           for (int i = 0; i < n; i++)
@@ -13,7 +13,7 @@ namespace MyApplication
               return i;
           }
           return -1;
-      }
+      } */
     static void Main(string[] args)
     {
 
@@ -88,23 +88,23 @@ namespace MyApplication
                 int hourlyIndex = 0;
 
                 
-                string firstName;
                 string lastName;
+                string firstName;
                 char employeeType;
                 float hourlyPay;
                 int salaryPay;
 				
-                while ((firstName = sr.ReadLine()) != null)  //this ensures that i'm not reading any blank lines. Reading text file into variable which i will then put into object and array
+                while ((lastName = sr.ReadLine()) != null)  //this ensures that i'm not reading any blank lines. Reading text file into variable which i will then put into object and array
                 {
                     
-                    lastName = sr.ReadLine();
+                    firstName = sr.ReadLine();
                     employeeType = Convert.ToChar(sr.ReadLine());
 
 
                     if (employeeType == 'H')
                     {
                       hourlyPay = Convert.ToSingle(sr.ReadLine());
-                      hourlyArray[hourlyIndex] = new Hourly (hourlyPay, firstName, lastName, employeeType);
+                      hourlyArray[hourlyIndex] = new Hourly (hourlyPay, lastName, firstName, employeeType);
 
                       //Now you can load into the arrays
                       /* hourlyArray[hourlyIndex].FirstName = firstName;
@@ -119,7 +119,7 @@ namespace MyApplication
                     {
                       salaryPay = Convert.ToInt32(sr.ReadLine());
                       
-                      salaryArray[salaryIndex] = new Salary (salaryPay, firstName, lastName, employeeType);
+                      salaryArray[salaryIndex] = new Salary (salaryPay, lastName, firstName, employeeType);
                       //Now load inito the the array
                       /* salaryArray[salaryIndex].FirstName = firstName;
                       salaryArray[salaryIndex].setEmployeeLastName(lastName);
@@ -170,16 +170,16 @@ namespace MyApplication
               {
                 if (!(hourlyArray[index] == null))
                 {
-                  sw.WriteLine(hourlyArray[index].FirstName);
                   sw.WriteLine(hourlyArray[index].getEmployeeLastName());
+                  sw.WriteLine(hourlyArray[index].FirstName);
                   sw.WriteLine(hourlyArray[index].EmployeeType);
                   sw.WriteLine(hourlyArray[index].HourlyPay);
                 }
 
                 if (!(salaryArray[index]==null))
                 {
-                  sw.WriteLine(salaryArray[index].FirstName);
                   sw.WriteLine(salaryArray[index].getEmployeeLastName());
+                  sw.WriteLine(salaryArray[index].FirstName);
                   sw.WriteLine(salaryArray[index].EmployeeType);
                   sw.WriteLine(salaryArray[index].SalaryPay);
                 }
@@ -194,23 +194,11 @@ namespace MyApplication
           else if (userChoiceString == "C" || userChoiceString == "c")
           {
             Console.WriteLine("in the C/c area.");
-            string addFirstName = "";
             string addLastName = "";
+            string addFirstName = "";
             char addEmployeeStatus = '\0';
             float addHourlyPay = 0.00F;
             int addSalaryPay = 0;
-
-            //Prompt the user for the employees First Name
-            do 
-            {
-              Console.WriteLine("Please enter the employees First Name.");
-              addFirstName = Console.ReadLine();
-              if (addFirstName == "")
-              {
-                Console.WriteLine("Entry was not valid, please enter the employees first name.");
-              }  
-            } while (addFirstName == "");
-
 
             //Prompt the user to enter an employee last name 
             do
@@ -222,6 +210,18 @@ namespace MyApplication
                 Console.WriteLine("Entry was not valid, please enter the employee's last name.");
               } 
             } while (addLastName == "");
+
+
+            //Prompt the user for the employees First Name
+            do 
+            {
+              Console.WriteLine("Please enter the employees First Name.");
+              addFirstName = Console.ReadLine();
+              if (addFirstName == "")
+              {
+                Console.WriteLine("Entry was not valid, please enter the employees first name.");
+              }  
+            } while (addFirstName == "");
 
 
             //Prompt the user for the employees employment status
@@ -275,7 +275,7 @@ namespace MyApplication
                 if ((hourlyArray[index] == null) && employeeSpaceFound == false)
                 {
                   Console.WriteLine("There is space. The employee will be added.");
-                  hourlyArray[index] = new Hourly (addHourlyPay, addFirstName, addLastName, addEmployeeStatus);
+                  hourlyArray[index] = new Hourly (addHourlyPay, addLastName, addFirstName, addEmployeeStatus);
                   //hourlyArray[index].FirstName = addFirstName;
                   //hourlyArray[index].setEmployeeLastName(addLastName);
                   //hourlyArray[index].EmployeeType = addEmployeeStatus;
@@ -297,7 +297,7 @@ namespace MyApplication
                 if ((salaryArray[index] == null) && employeeSpaceFound == false)
                 {
                   Console.WriteLine("There is space. The employee will be added.");
-                  salaryArray[index] = new Salary (addSalaryPay, addFirstName, addLastName, addEmployeeStatus);
+                  salaryArray[index] = new Salary (addSalaryPay, addLastName, addFirstName, addEmployeeStatus);
                   //salaryArray[index].FirstName = addFirstName;
                   //salaryArray[index].setEmployeeLastName(addLastName);
                   //salaryArray[index].EmployeeType = addEmployeeStatus;
@@ -351,9 +351,9 @@ namespace MyApplication
                 Console.WriteLine("Please enter the first name of the employee that you would like to update information for. ");
                 string updateEmployeeFirstName = Console.ReadLine();
 
-                bool employeeFound = false; 
+                bool firstNameFound = false; 
 
-                //Create a for loop to see if the employee is found in the array 
+                /* //Create a for loop to see if the employee is found in the array 
                 int[] arr = { 2, 3, 4, 10, 40 };
                 int x = 10;
  
@@ -364,12 +364,14 @@ namespace MyApplication
                 "Element is not present in array");
                 else
                  Console.WriteLine("Element is present at index " + result);
-
+ */
                 for (int index = 0; index < 25; index++)
                 {
-                    if (salaryArray[index].FirstName == updateEmployeeLastName)
+                    if (salaryArray[index].getEmployeeLastName() == updateEmployeeLastName)
                     {
-                        employeeFound = true;
+                        lastNameFound = true;
+                        firstNameFound = true;
+                        
                         
                         Console.WriteLine("Please enter the number for what you wish to update: 1: First Name, 2: Last Name, 3: Employment Status, 4: Hourly Pay or 5: Salary Pay ");
                         int updateOption = Convert.ToInt32(Console.ReadLine());
@@ -379,10 +381,12 @@ namespace MyApplication
                             case 1: 
                                 Console.WriteLine("What do you wish to update the employee's first name to? ");
                                 string updateFirstName = Console.ReadLine();
+                                salaryArray[index].FirstName = updateFirstName;
                                 break;
                             case 2: 
                                 Console.WriteLine("What do you wish to update the employee's last name to?");
                                 string updateLastName = Console.ReadLine();
+                                salaryArray[index].setEmployeeLastName(updateLastName);
                                 break;
                             case 3: 
                                 Console.WriteLine("What do you wish to update the employee's employment status to? H for Hourly and S for Salary");
@@ -391,11 +395,13 @@ namespace MyApplication
                                 {
                                     Console.WriteLine("What is the employee's Hourly Pay?");
                                     float updateHourlyPay = Convert.ToSingle(Console.ReadLine());
+                                    hourlyArray[index].HourlyPay = updateHourlyPay;
                                 }
                                 else 
                                 {
                                     Console.WriteLine("What is the employee's Salary Pay?");
                                     int updateSalaryPay = Convert.ToInt32(Console.ReadLine());
+
                                 }
 
                                 break;
@@ -412,9 +418,10 @@ namespace MyApplication
 
                         } //switch
                     } //if
-                    else if ((hourlyArray[index].getEmployeeLastName() == updateEmployeeLastName) && employeeFound == false)
+                    else if (hourlyArray[index] != null)
                     {
-                        employeeFound = true;
+                        lastNameFound = true;
+                        firstNameFound = true;
                         Console.WriteLine("Please enter the number for what you wish to update: 1: First Name, 2: Last Name, 3: Employment Status, 4: Hourly Pay or 5: Salary Pay ");
                         int updateOption = Convert.ToInt32(Console.ReadLine());
 
@@ -456,7 +463,7 @@ namespace MyApplication
                         } //switch
                     } //else if
             }// for
-                if (employeeFound == true)
+                if (lastNameFound == true && firstNameFound == true)
                 {
                     Console.WriteLine("This information has been updated for you.");
                 }
