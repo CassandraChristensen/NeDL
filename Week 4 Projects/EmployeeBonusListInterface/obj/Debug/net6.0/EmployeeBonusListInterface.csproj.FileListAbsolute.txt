@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\bin\Debug\net6.0\EmployeeBonusListInterface.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\bin\Debug\net6.0\EmployeeBonusListInterface.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\bin\Debug\net6.0\EmployeeBonusListInterface.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\bin\Debug\net6.0\EmployeeBonusListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\bin\Debug\net6.0\ref\EmployeeBonusListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\bin\Debug\net6.0\EmployeeBonusListInterface.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\ref\EmployeeBonusListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\EmployeeBonusListInterface\obj\Debug\net6.0\EmployeeBonusListInterface.genruntimeconfig.cache
