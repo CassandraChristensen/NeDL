@@ -365,8 +365,9 @@ namespace MyApplication
                 else
                  Console.WriteLine("Element is present at index " + result);
  */
-                for (int index = 0; index < 25; index++)
+                foreach (Salary anEmployee in salaryArray)
                 {
+                  int index = 0;
                     if (salaryArray[index].getEmployeeLastName() == updateEmployeeLastName)
                     {
                         lastNameFound = true;
