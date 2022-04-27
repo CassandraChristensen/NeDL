@@ -114,6 +114,41 @@ namespace MyApplication
             if (userChoiceString=="L" || userChoiceString=="l")
             {
                 Console.WriteLine("In the L/l area");
+                string readLastName;
+                string readFirstName;
+                string readEmploymentType;
+                double readSalaryPay;
+                double readHourlyPay;
+
+                int index = 0;
+
+                using (StreamReader sr = new StreamReader ("employee.txt"))
+                {
+                   while ((readLastName = sr.ReadLine()) != null)
+                   {
+                    readFirstName = sr.ReadLine();
+                    readEmploymentType = sr.ReadLine();
+                    if (readEmploymentType == "S")
+                    {
+                      readSalaryPay = Convert.ToDouble(sr.ReadLine());
+                      employeeList.Add(new SalaryEmployee(readLastName, readFirstName, readEmploymentType, readSalaryPay));
+                      //index = index + 1;
+
+                    }
+                    else 
+                    {
+                      readHourlyPay = Convert.ToDouble(sr.ReadLine());
+                      employeeList.Add(new HourlyEmployee(readLastName, readFirstName, readEmploymentType, readHourlyPay));
+                      //index = index + 1;
+                    }
+                   }  
+                  
+
+                } //stream reader
+                foreach (Employee anEmployee in employeeList)
+                {
+                  Console.WriteLine(anEmployee);
+                }
             }
 
         //  TODO: Else if the option is an S or s then store the array of strings into the text file
@@ -121,6 +156,26 @@ namespace MyApplication
             else if (userChoiceString=="S" || userChoiceString=="s")
             {
                 Console.WriteLine("In the S/s area");
+                using (StreamWriter sw = new StreamWriter ("employee.txt"))
+                {
+                  for (int index = 0; index < employeeList.Count; index++)
+                  {
+                    if (employeeList[index].EmploymentType == "S")
+                    {
+                    sw.WriteLine(employeeList[index].LastName);
+                    sw.WriteLine(employeeList[index].FirstName);
+                    sw.WriteLine(employeeList[index].EmploymentType);
+                    sw.WriteLine(employeeList[index].SalaryRate);
+                    }
+                    else 
+                    {
+                      sw.WriteLine(employeeList[index].LastName);
+                      sw.WriteLine(employeeList[index].FirstName);
+                      sw.WriteLine(employeeList[index].EmploymentType);
+                      sw.WriteLine(employeeList[index].SetRate());
+                    }
+                  }
+                }
             }
 
         //  TODO: Else if the option is a C or c then add a name to the array (if there's room)
@@ -178,6 +233,8 @@ namespace MyApplication
             else if (userChoiceString=="U" || userChoiceString=="u")
             {
                 Console.WriteLine("In the U/u area");
+
+                //This will need to include validation but currently does not
       Console.WriteLine("Please enter the last name of the employee you want to update.");
       string employeeLastName = Console.ReadLine();
       Console.WriteLine("Please enter the first name of the employee you want to update.");
