@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\bin\Debug\net6.0\MusicListInterface.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\bin\Debug\net6.0\MusicListInterface.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\bin\Debug\net6.0\MusicListInterface.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\bin\Debug\net6.0\MusicListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\bin\Debug\net6.0\ref\MusicListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\bin\Debug\net6.0\MusicListInterface.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\ref\MusicListInterface.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\MusicListInterface\obj\Debug\net6.0\MusicListInterface.genruntimeconfig.cache
