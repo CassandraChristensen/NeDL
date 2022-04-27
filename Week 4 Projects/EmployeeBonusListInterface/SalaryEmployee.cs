@@ -2,7 +2,7 @@ using System;
 
 namespace MyApplication
 {
-  class SalaryEmployee : Employee, IGetBonus
+  class SalaryEmployee : Employee, IGetBonus, IRate
   {
     //Create my properties
     public double SalaryRate
@@ -23,6 +23,11 @@ namespace MyApplication
     public double GetBonus()  //interface method
     {
         return SalaryRate * .10;
+    }
+
+    public override void SetRate(double newRate)
+    {
+      SalaryRate = newRate;
     }
 
     //Create my GetBonus Method

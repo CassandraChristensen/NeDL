@@ -2,7 +2,7 @@ using System;
 
 namespace MyApplication
 {
-  class Employee
+  class Employee : IRate
   {
     //Create my properties
     public string LastName
@@ -26,6 +26,11 @@ namespace MyApplication
         LastName = newLastName;
         FirstName = newFirstName;
         EmploymentType = newEmploymentType;
+    }
+
+    public virtual void SetRate(double newRate)
+    {
+      //nothing to do here
     }
 
     //Create my GetBonus Method

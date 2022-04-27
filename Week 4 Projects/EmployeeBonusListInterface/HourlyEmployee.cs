@@ -2,7 +2,7 @@ using System;
 
 namespace MyApplication
 {
-  class HourlyEmployee : Employee, IGetBonus
+  class HourlyEmployee : Employee, IGetBonus, IRate
   {
     //Create my properties
     public double HourlyRate
@@ -23,6 +23,11 @@ namespace MyApplication
     public double GetBonus()  //interface method
     {
         return HourlyRate * 80;
+    }
+
+    public override void SetRate(double newRate)
+    {
+      HourlyRate = newRate;
     }
 
     //Create my tostring
