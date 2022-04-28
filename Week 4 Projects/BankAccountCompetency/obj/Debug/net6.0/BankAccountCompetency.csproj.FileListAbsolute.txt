@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\bin\Debug\net6.0\BankAccountCompetency.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\bin\Debug\net6.0\BankAccountCompetency.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\bin\Debug\net6.0\BankAccountCompetency.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\bin\Debug\net6.0\BankAccountCompetency.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\bin\Debug\net6.0\ref\BankAccountCompetency.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\bin\Debug\net6.0\BankAccountCompetency.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\ref\BankAccountCompetency.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 4 Projects\BankAccountCompetency\obj\Debug\net6.0\BankAccountCompetency.genruntimeconfig.cache
