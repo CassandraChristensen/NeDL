@@ -2,7 +2,7 @@ using System;
 
 namespace BankAccountCompetency
 {
-  class CDAccount : BankAccount    //Derived Account : Base Account, Interface
+  class CDAccount : BankAccount, IAnnualEarnings    //Derived Account : Base Account, Interface
   {
       //Create my property for Annual Interest Rate
       public double AnnualInterestRate
@@ -37,9 +37,15 @@ namespace BankAccountCompetency
           return CurrentBalance - withdrawalAmount;
       }
 
+      //Implement my interface method
+      public double AnnualEarnings()
+      {
+          return CurrentBalance * AnnualInterestRate;
+      }
+
       public override string ToString()
       {
-          return base.ToString() + " | Annual Interest: " + AnnualInterestRate + " | Penalty for early withdrawal: " + PenaltyEarlyWithdrawal;   
+          return base.ToString() + " | Annual Interest: " + AnnualInterestRate + " | Penalty for early withdrawal: " + PenaltyEarlyWithdrawal + " | Annual earnings from interest: " + AnnualEarnings();   
       }
   }
 }

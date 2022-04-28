@@ -44,7 +44,7 @@ namespace BankAccountCompetency
 
       public override string ToString()
       {
-          return base.ToString() + " | Annual Interest: " + AnnualInterestRate;   
+          return base.ToString() + " | Annual Interest: " + AnnualInterestRate + " | Annual Earnings from interest: " + AnnualEarnings();   
       }
   }
 }
