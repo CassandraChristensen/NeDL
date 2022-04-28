@@ -20,11 +20,6 @@ namespace BankAccountCompetency
           AnnualFee = newAnnualFee;
       }
 
-      //Create my Deposit Method
-      public override double DepositMethod (double depositAmount)
-      {
-          return CurrentBalance + depositAmount;
-      }
 
       //Create my abstract Withdrawal Method
       public override double WithdrawalAbstract (double withdrawalAmount)

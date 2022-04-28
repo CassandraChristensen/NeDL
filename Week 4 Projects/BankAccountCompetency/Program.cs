@@ -4,6 +4,17 @@ namespace BankAccountCompetency
 {
   class Program
   {
+    static double GetValidDouble (double lowValue)
+    {
+        double value;
+        do 
+        {
+            Console.WriteLine("Please enter a value greater than " + lowValue);
+            value = Convert.ToInt32(Console.ReadLine());
+        } while (value < lowValue);
+        return value;
+
+    }
     static void Main(string[] args)
     {
         //declare my variables 
@@ -57,31 +68,39 @@ namespace BankAccountCompetency
             {
                 //Create a foreach loop so all accounts in the list will be printed 
                 //All Must include: Account ID, Type of Account, Current Balance. Also, as appropriate include the interest rate, annual fee, early penalty and annual earnings based on interest 
-                foreach (BankAccount anAccount in bankAccountList)
+                /* foreach (BankAccount anAccount in bankAccountList)
                 {
                     Console.WriteLine(anAccount);
+                } */
+
+                for (int index = 0; index < bankAccountList.Count; index ++)
+                {
+                    Console.WriteLine(bankAccountList[index]);
                 }
             }
 
             //To Do: Else If the option is D or d, then deposit money into account. 
             else if (userChoiceString == "D" || userChoiceString == "d")
             {
-                Console.WriteLine("In the D/d area.");
 
                 //Prompt the user to enter the account number for the account they wish to deposit money to. 
                 Console.WriteLine("Please enter the Account Number for the account you are wishing to deposit money to.");
                 int depositAccountNumber = Convert.ToInt32(Console.ReadLine());
 
+
+                //Create a bool variable so you can give error message if account ID not found
                 bool accountFound = false;
+
+                //Create a for loop to search through the index and find a valid accountID
                 for (int index = 0; index < bankAccountList.Count; index ++)
                 {
                     if (bankAccountList[index].AccountID == depositAccountNumber)
                     {
                         accountFound = true; 
                         Console.WriteLine("How much would you like to deposit?");
-                        double depositAmount = Convert.ToDouble(Console.ReadLine());
-                        Console.WriteLine("The amount has been deposited and your new balance is: $" + bankAccountList[index].DepositMethod(depositAmount));
-                        
+                        double depositAmount = GetValidDouble(0);
+                        bankAccountList[index].CurrentBalance = bankAccountList[index].DepositMethod(depositAmount);
+                        Console.WriteLine("The amount has been deposited. Your new balance is: $" + bankAccountList[index].CurrentBalance);
                     }
                 }
                 if (accountFound == false)
@@ -95,8 +114,80 @@ namespace BankAccountCompetency
             //To Do: Else If the option is W or w, then withdraw money from the account. 
             else if (userChoiceString == "W" || userChoiceString == "w")
             {
-                Console.WriteLine("In the W/w area. ");
                 
+                //Prompt the user to enter the account number for the account they wish to withdraw money from.
+                Console.WriteLine("Please enter the Account Number for the account you are wishing to withdraw money from.");
+                int withdrawAccountNumber = Convert.ToInt32(Console.ReadLine());
+
+
+                //Create a bool variable so you can give error message if account ID not found
+                bool accountFound = false;
+                
+
+                //Create a for loop to search through the index and find a valid accountID
+                for (int index = 0; index < bankAccountList.Count; index ++)
+                {
+                    if (bankAccountList[index].AccountID == withdrawAccountNumber)
+                    {
+                        accountFound = true; 
+
+                        if (bankAccountList[index].TypeOfAccount == "Savings Account")  //Savings Account
+                        {
+                            double withdrawSavingsAmount;
+                            do
+                            {
+                                Console.WriteLine("How much would you like to withdraw?");
+                                withdrawSavingsAmount = GetValidDouble(0);
+                                if (bankAccountList[index].CurrentBalance <= withdrawSavingsAmount)
+                                {
+                                    Console.WriteLine("Insufficient funds. Please enter a withdrawal amount less than your current balance.");
+                                }
+                            }
+                            while (bankAccountList[index].CurrentBalance <= withdrawSavingsAmount);
+                            bankAccountList[index].CurrentBalance = bankAccountList[index].WithdrawalAbstract(withdrawSavingsAmount);
+
+                            Console.WriteLine("The amount has been withdrawn. Your new balance is: $" + bankAccountList[index].CurrentBalance);
+
+                        }
+                        else if (bankAccountList[index].TypeOfAccount == "Checking Account")  //Checking Account
+                        {
+                            double withdrawCheckingAmount;
+                            do
+                            {
+                            Console.WriteLine("How much would you like to withdraw?");
+                            withdrawCheckingAmount = GetValidDouble(0);
+                            if (withdrawCheckingAmount > (bankAccountList[index].CurrentBalance / 2))
+                            {
+                                Console.WriteLine("Insufficient funds. Please enter a withdrawal amount that is not greater than 50% of your current balance.");
+                            }
+                            }
+                            while (withdrawCheckingAmount > (bankAccountList[index].CurrentBalance / 2));
+                            bankAccountList[index].CurrentBalance = bankAccountList[index].WithdrawalAbstract(withdrawCheckingAmount);
+                            Console.WriteLine("The amount has been withdrawn. Your new balance is: $" + bankAccountList[index].CurrentBalance);
+                        }
+                        else //CD Account 
+                        {
+                            double withdrawCDAmount;
+                            do
+                            {
+                                Console.WriteLine("How much would you like to withdraw?");
+                                withdrawCDAmount = GetValidDouble(0);
+                               
+                                if (bankAccountList[index].CurrentBalance < bankAccountList[index].SetPenaltyPlusWithdrawal(withdrawCDAmount))
+                                {
+                                    Console.WriteLine("Insufficient funds. Please enter a withdrawal amount that is not greater than the current balance, when the penalty fee is added.");
+                                }
+                            } while (bankAccountList[index].CurrentBalance < bankAccountList[index].SetPenaltyPlusWithdrawal(withdrawCDAmount));
+                            bankAccountList[index].CurrentBalance = bankAccountList[index].WithdrawalAbstract(withdrawCDAmount);
+                            Console.WriteLine("The amount has been withdrawn. Your new balance is: $" + bankAccountList[index].CurrentBalance);
+                        }
+                    }
+                }
+                if (accountFound == false)
+                {
+                    Console.WriteLine("The account number was not found.");
+                }
+
             } 
 
             //To Do: Else the option is Q or q, then quit

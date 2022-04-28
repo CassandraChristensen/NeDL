@@ -2,7 +2,7 @@ using System;
 
 namespace BankAccountCompetency
 {
-  class CDAccount : BankAccount, IAnnualEarnings    //Derived Account : Base Account, Interface
+  class CDAccount : BankAccount, IAnnualEarnings, ISetPenalty  //Derived Account : Base Account, Interface
   {
       //Create my property for Annual Interest Rate
       public double AnnualInterestRate
@@ -25,16 +25,19 @@ namespace BankAccountCompetency
           PenaltyEarlyWithdrawal = newPenaltyEarlyWithdrawal;
       }
 
-      //Create my Deposit Method
-      public override double DepositMethod(double depositAmount)
+
+      //Create a Withdraw+Penalty amount
+      public double TotalWithdrawal(double withdrawlandPenalty)
       {
-          return CurrentBalance + depositAmount;
-      }
+          return withdrawlandPenalty + PenaltyEarlyWithdrawal;
+      } 
 
       //Create my Withdrawal abstract Method
       public override double WithdrawalAbstract(double withdrawalAmount)
       {    
-          return CurrentBalance - withdrawalAmount;
+          double totalWithdrawal = withdrawalAmount + PenaltyEarlyWithdrawal;
+          CurrentBalance = CurrentBalance - totalWithdrawal;
+          return CurrentBalance;
       }
 
       //Implement my interface method
@@ -42,6 +45,12 @@ namespace BankAccountCompetency
       {
           return CurrentBalance * AnnualInterestRate;
       }
+
+      
+     public override double SetPenaltyPlusWithdrawal( double newPenalty )
+     {
+         return PenaltyEarlyWithdrawal + newPenalty;
+     }
 
       public override string ToString()
       {

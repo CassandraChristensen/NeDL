@@ -2,7 +2,7 @@ using System;
 
 namespace BankAccountCompetency
 {
-  abstract class BankAccount             //This is my base account and will be abstract because I'm going to use an abstract Method.
+  abstract class BankAccount : ISetPenalty      //This is my base account and will be abstract because I'm going to use an abstract Method.
   {
     //Create my properties for Account ID, TypeAccount, CurrentBalance
 
@@ -32,14 +32,19 @@ namespace BankAccountCompetency
     }
 
     //Create my Deposit Method
-    public virtual double DepositMethod(double depositAmount)
+    public double DepositMethod(double depositAmount)
     {
-        return CurrentBalance + depositAmount;
+        CurrentBalance = CurrentBalance + depositAmount;
+        return CurrentBalance;
     }
 
     //Create my abstract Withdrawal Method
     public abstract double WithdrawalAbstract(double withdrawalAmount); //this does not have a body because it's an abstract method
-    
+
+    public virtual double SetPenaltyPlusWithdrawal (double newPenalty)
+    {
+        return 0;
+    }
 
     //Create my ToString: 
     public override string ToString()

@@ -9,7 +9,7 @@ namespace BankAccountCompetency
       { get; set; }
 
       //Create my default constructor 
-      public SavingsAccount ()
+      public SavingsAccount () : base ()
       {
           AnnualInterestRate = 0.0;
       }
@@ -20,23 +20,16 @@ namespace BankAccountCompetency
           AnnualInterestRate = newAnnualInterestRate;
       }
 
-      //Create my Deposit Method
-      public override double DepositMethod(double depositAmount)
-      {
-          return CurrentBalance + depositAmount;
-      }
 
       //Create my Withdrawal abstract Method
       public override double WithdrawalAbstract(double withdrawalAmount)
       {   
-          double newBalance = 0;
-          if (CurrentBalance > withdrawalAmount)
-          {
-              newBalance = CurrentBalance - withdrawalAmount;
-          }
-          return newBalance;
+        CurrentBalance = CurrentBalance - withdrawalAmount;
+        return CurrentBalance;
       }
 
+
+    //Create my interface
       public double AnnualEarnings()
       {
           return CurrentBalance * AnnualInterestRate;
