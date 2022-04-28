@@ -2,7 +2,7 @@ using System;
 
 namespace MyApplication
 {
-  class Employee : IRate
+  class Employee : IRate, IGetMoney
   {
     //Create my properties
     public string LastName
@@ -29,6 +29,11 @@ namespace MyApplication
     }
 
     public virtual void SetRate(double newRate)
+    {
+      //nothing to do here
+    }
+
+    public virtual void SetWage (double newWage)
     {
       //nothing to do here
     }

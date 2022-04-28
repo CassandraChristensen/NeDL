@@ -2,7 +2,7 @@ using System;
 
 namespace MyApplication
 {
-  class SalaryEmployee : Employee, IGetBonus, IRate
+  class SalaryEmployee : Employee, IGetBonus, IRate, IGetMoney
   {
     //Create my properties
     public double SalaryRate
@@ -29,6 +29,11 @@ namespace MyApplication
     {
       SalaryRate = newRate;
     }
+
+   public override void SetWage (double newWage)
+   {
+     SalaryRate = newWage;
+   }
 
     //Create my GetBonus Method
     public override string ToString ()

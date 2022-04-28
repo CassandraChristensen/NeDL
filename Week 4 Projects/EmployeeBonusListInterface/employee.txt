@@ -1,12 +1,12 @@
 Christensen
 Austin
 H
-System.Action`1[System.Double]
+18.96
 Weisser
 Lauren
 S
-System.Action`1[System.Double]
+65000
 Crandall
 Stephanie
 S
-System.Action`1[System.Double]
+25000

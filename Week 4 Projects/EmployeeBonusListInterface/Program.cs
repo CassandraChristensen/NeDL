@@ -132,14 +132,14 @@ namespace MyApplication
                     {
                       readSalaryPay = Convert.ToDouble(sr.ReadLine());
                       employeeList.Add(new SalaryEmployee(readLastName, readFirstName, readEmploymentType, readSalaryPay));
-                      //index = index + 1;
+                      
 
                     }
                     else 
                     {
                       readHourlyPay = Convert.ToDouble(sr.ReadLine());
                       employeeList.Add(new HourlyEmployee(readLastName, readFirstName, readEmploymentType, readHourlyPay));
-                      //index = index + 1;
+                      
                     }
                    }  
                   
@@ -165,17 +165,18 @@ namespace MyApplication
                     sw.WriteLine(employeeList[index].LastName);
                     sw.WriteLine(employeeList[index].FirstName);
                     sw.WriteLine(employeeList[index].EmploymentType);
-                    sw.WriteLine(employeeList[index].SalaryRate);
+                    sw.WriteLine(SalaryEmployee employeeList[index].;
                     }
                     else 
                     {
                       sw.WriteLine(employeeList[index].LastName);
                       sw.WriteLine(employeeList[index].FirstName);
                       sw.WriteLine(employeeList[index].EmploymentType);
-                      sw.WriteLine(employeeList[index].SetRate());
+                      sw.WriteLine(employeeList[index].);
                     }
-                  }
-                }
+
+                  } //for loop
+                 }//streamwriter
             }
 
         //  TODO: Else if the option is a C or c then add a name to the array (if there's room)
