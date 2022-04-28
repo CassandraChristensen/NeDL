@@ -24,7 +24,8 @@ namespace BankAccountCompetency
       //Create my abstract Withdrawal Method
       public override double WithdrawalAbstract (double withdrawalAmount)
       {
-          return CurrentBalance - withdrawalAmount;
+          CurrentBalance = CurrentBalance - withdrawalAmount;
+          return CurrentBalance;
       }
 
       //Create my ToString 
