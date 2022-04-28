@@ -19,12 +19,7 @@ namespace BankAccountCompetency
         bankAccountList.Add(new SavingsAccount(52678, "Savings Account", 1500, .10));
         bankAccountList.Add(new CheckingAccount(25789, "Checking Account", 2800, 25));
         bankAccountList.Add(new CDAccount(65879, "CD Account", 3900, .10, 30));
-
-        //Print to console
-        foreach (BankAccount anAccount in bankAccountList)
-        {
-            Console.WriteLine(anAccount);
-        }
+        
 
         //Create my main do loop that will go through all options for the user menu
         do
@@ -60,19 +55,48 @@ namespace BankAccountCompetency
             //To Do: If the option is L or l, then List all of the accounts and their information. 
             if (userChoiceString == "L" || userChoiceString == "l")
             {
-                Console.WriteLine("In the L/l area.");
+                //Create a foreach loop so all accounts in the list will be printed 
+                //All Must include: Account ID, Type of Account, Current Balance. Also, as appropriate include the interest rate, annual fee, early penalty and annual earnings based on interest 
+                foreach (BankAccount anAccount in bankAccountList)
+                {
+                    Console.WriteLine(anAccount);
+                }
             }
 
             //To Do: Else If the option is D or d, then deposit money into account. 
             else if (userChoiceString == "D" || userChoiceString == "d")
             {
                 Console.WriteLine("In the D/d area.");
+
+                //Prompt the user to enter the account number for the account they wish to deposit money to. 
+                Console.WriteLine("Please enter the Account Number for the account you are wishing to deposit money to.");
+                int depositAccountNumber = Convert.ToInt32(Console.ReadLine());
+
+                bool accountFound = false;
+                for (int index = 0; index < bankAccountList.Count; index ++)
+                {
+                    if (bankAccountList[index].AccountID == depositAccountNumber)
+                    {
+                        accountFound = true; 
+                        Console.WriteLine("How much would you like to deposit?");
+                        double depositAmount = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine("The amount has been deposited and your new balance is: $" + bankAccountList[index].DepositMethod(depositAmount));
+                        
+                    }
+                }
+                if (accountFound == false)
+                {
+                    Console.WriteLine("The account number was not found.");
+                }
+
+
             }
 
             //To Do: Else If the option is W or w, then withdraw money from the account. 
             else if (userChoiceString == "W" || userChoiceString == "w")
             {
                 Console.WriteLine("In the W/w area. ");
+                
             } 
 
             //To Do: Else the option is Q or q, then quit
