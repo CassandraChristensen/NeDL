@@ -1,4 +1,4 @@
 interface ISetPenalty
 {
-    double SetPenaltyPlusWithdrawal (double newPenalty);
+    double SetPenaltyPlusWithdrawal (double withdrawalAmount);
 }

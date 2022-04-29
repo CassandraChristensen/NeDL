@@ -39,14 +39,16 @@ namespace BankAccountCompetency
     }
 
     //Create my abstract Withdrawal Method
-    public abstract double WithdrawalAbstract(double withdrawalAmount); //this does not have a body because it's an abstract method
+    public abstract double WithdrawalAbstract(double withdrawalAmount); //this does not have a body because it's an abstract method in my abstract class
 
-    public virtual double SetPenaltyPlusWithdrawal (double newPenalty)
+
+    //This is an interface I created that i'm going to use in my CD account class. I'm returning 0 here because I don't need to do anything with this in this class.
+    public virtual double SetPenaltyPlusWithdrawal (double withdrawalAmount)
     {
         return 0;
     }
 
-    //Create my ToString: 
+    //Create my ToString: This will output my message to the console.
     public override string ToString()
     {
         return "Account ID: " + AccountID + " | Type of Account: " + TypeOfAccount + " | Current Balance: " + CurrentBalance;

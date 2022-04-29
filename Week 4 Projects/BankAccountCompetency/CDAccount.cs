@@ -11,14 +11,14 @@ namespace BankAccountCompetency
       public double PenaltyEarlyWithdrawal
       { get; set; }
 
-      //Create my default constructor 
-      public CDAccount ()
+      //Create my default constructor. Include base so it can call my base class's default constructor. Even if i didn't write it out, it would still happen automatically. But better to write it out and show what's happening.
+      public CDAccount () : base ()
       {
           AnnualInterestRate = 0.0;
           PenaltyEarlyWithdrawal = 0.0;
       }
 
-      //Create my constructor with passing parameters
+      //Create my constructor with parameters. Include base so it can call my base class's constructor. 
       public CDAccount (int newAccountID, string newTypeofAccount, double newCurrentBalance, double newAnnualInterestRate, double newPenaltyEarlyWithdrawal) : base (newAccountID, newTypeofAccount, newCurrentBalance)
       {
           AnnualInterestRate = newAnnualInterestRate;
@@ -26,13 +26,7 @@ namespace BankAccountCompetency
       }
 
 
-      //Create a Withdraw+Penalty amount
-      public double TotalWithdrawal(double withdrawlandPenalty)
-      {
-          return withdrawlandPenalty + PenaltyEarlyWithdrawal;
-      } 
-
-      //Create my Withdrawal abstract Method
+      //Create my Withdrawal abstract Method. This is overriding the abstract method in my base class. I'm going to first deduct the withdrawal amount from the current balance, and then i'm going to return the new balance. 
       public override double WithdrawalAbstract(double withdrawalAmount)
       {    
           double totalWithdrawal = withdrawalAmount + PenaltyEarlyWithdrawal;
@@ -40,18 +34,20 @@ namespace BankAccountCompetency
           return CurrentBalance;
       }
 
-      //Implement my interface method
+      //Implement my interface method. This is my interface i created, i'm just returning the current balance times the annual interest rate, because i'm not actually updating the balance. Just reporting the amount on my ToString.
       public double AnnualEarnings()
       {
           return CurrentBalance * AnnualInterestRate;
       }
 
       
-     public override double SetPenaltyPlusWithdrawal( double newPenalty )
+      //This is another interface, it adds the PenaltyEarlyWithdrawal fee with the withdrawal amount. I'm not updating the penalty withdrawal in the index so I'm not going to update the PenaltyEarlyWithdrawal Amount. I'm using this for validation to make sure the user has sufficient funds.  
+     public override double SetPenaltyPlusWithdrawal( double withdrawalAmount )
      {
-         return PenaltyEarlyWithdrawal + newPenalty;
+         return PenaltyEarlyWithdrawal + withdrawalAmount;
      }
 
+     //This is my ToString. It outputs the message to the console. 
       public override string ToString()
       {
           return base.ToString() + " | Annual Interest: " + AnnualInterestRate + " | Penalty for early withdrawal: " + PenaltyEarlyWithdrawal + " | Annual earnings from interest: " + AnnualEarnings();   

@@ -24,12 +24,14 @@ namespace BankAccountCompetency
         //Create my list 
         List<BankAccount> bankAccountList = new List<BankAccount>();
 
+
         //Create my object and hardcode data into it 
 
         //SavingsAccount: 
         bankAccountList.Add(new SavingsAccount(52678, "Savings Account", 1500, .10));
         bankAccountList.Add(new CheckingAccount(25789, "Checking Account", 2800, 25));
         bankAccountList.Add(new CDAccount(65879, "CD Account", 3900, .10, 30));
+        
         
 
         //Create my main do loop that will go through all options for the user menu
@@ -99,7 +101,10 @@ namespace BankAccountCompetency
                         accountFound = true; 
                         Console.WriteLine("How much would you like to deposit?");
                         double depositAmount = GetValidDouble(0);
-                        bankAccountList[index].CurrentBalance = bankAccountList[index].DepositMethod(depositAmount);
+                        
+
+                        //This performs the deposit method, it is returning the current balance, back to this index, after the deposit amount has been added to it.
+                        bankAccountList[index].DepositMethod(depositAmount);
                         Console.WriteLine("The amount has been deposited. Your new balance is: $" + bankAccountList[index].CurrentBalance);
                     }
                 }
@@ -144,8 +149,9 @@ namespace BankAccountCompetency
                                 }
                             }
                             while (bankAccountList[index].CurrentBalance <= withdrawSavingsAmount);
-                            bankAccountList[index].CurrentBalance = bankAccountList[index].WithdrawalAbstract(withdrawSavingsAmount);
 
+                            //This performs the withdrawal method, it is returning the current balance, back to this index, after the withdrawal amount has been removed from it.                         
+                            bankAccountList[index].WithdrawalAbstract(withdrawSavingsAmount);
                             Console.WriteLine("The amount has been withdrawn. Your new balance is: $" + bankAccountList[index].CurrentBalance);
 
                         }
@@ -162,7 +168,9 @@ namespace BankAccountCompetency
                             }
                             }
                             while (withdrawCheckingAmount > (bankAccountList[index].CurrentBalance / 2));
-                            bankAccountList[index].CurrentBalance = bankAccountList[index].WithdrawalAbstract(withdrawCheckingAmount);
+
+                            //This performs the withdrawal method, it is returning the current balance, back to this index, after the withdrawal amount has been removed from it.
+                            bankAccountList[index].WithdrawalAbstract(withdrawCheckingAmount);
                             Console.WriteLine("The amount has been withdrawn. Your new balance is: $" + bankAccountList[index].CurrentBalance);
                         }
                         else //CD Account 
@@ -177,8 +185,11 @@ namespace BankAccountCompetency
                                 {
                                     Console.WriteLine("Insufficient funds. Please enter a withdrawal amount that is not greater than the current balance, when the penalty fee is added.");
                                 }
+                                
                             } while (bankAccountList[index].CurrentBalance < bankAccountList[index].SetPenaltyPlusWithdrawal(withdrawCDAmount));
-                            bankAccountList[index].CurrentBalance = bankAccountList[index].WithdrawalAbstract(withdrawCDAmount);
+
+                            //This performs the withdrawal method, it is returning the current balance, back to this index, after the withdrawal amount has been removed from it.
+                            bankAccountList[index].WithdrawalAbstract(withdrawCDAmount);
                             Console.WriteLine("The amount has been withdrawn. Your new balance is: $" + bankAccountList[index].CurrentBalance);
                         }
                     }
