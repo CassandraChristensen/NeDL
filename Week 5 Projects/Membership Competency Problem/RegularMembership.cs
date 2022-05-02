@@ -2,7 +2,7 @@ using System;
 
 namespace MyApplication
 {
-  class RegularMembership : BaseMembership
+  class RegularMembership : BaseMembership, ISpecialOffer
   {
     //Create my properties for: Cash back rewards
     public double RegularCashBackRewards    //This will be a flat percent 
@@ -29,12 +29,16 @@ namespace MyApplication
     }
 
     //Interface
+    public double SpecialOffer()
+    {
+        return AnnualCost * .25;
+    }
 
     
     //ToString 
     public override string ToString()
     {
-        return base.ToString() + " | Cash Back Rewards Percentage: "  + RegularCashBackRewards;
+        return base.ToString() + " | Cash Back Rewards Percentage: "  + RegularCashBackRewards + " | Special Offer for Membership Cost: " + SpecialOffer();
     }
   } //Class
 } //Namespace

@@ -42,12 +42,15 @@ namespace MyApplication
     }
 
     //Interface
-
+    public double SpecialOffer()
+    {
+        return AnnualCost * .50;
+    }
     
     //ToString 
     public override string ToString()
     {
-        return base.ToString() + " | Tier 1 Cash Back Rewards Percentage: "  + ExecutiveCashBackRewardsTier1 + " | Tier 2 Cash Back Rewards Percentage: " + ExecutiveCashBackRewardsTier2;
+        return base.ToString() + " | Tier 1 Cash Back Rewards Percentage: "  + ExecutiveCashBackRewardsTier1 + " | Tier 2 Cash Back Rewards Percentage: " + ExecutiveCashBackRewardsTier2 + " | Special Offer for Membership Cost: " + SpecialOffer();
     }
   } //Class
 } //Namespace
