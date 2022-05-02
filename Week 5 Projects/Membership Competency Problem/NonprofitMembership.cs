@@ -5,7 +5,7 @@ namespace MyApplication
   class NonprofitMembership : BaseMembership
   {
     //Create my properties for: Cash back rewards
-    public double NPCashBackRewards    //This will be perfect if non military/education
+    public double NPCashBackRewards    //Cash back percentage. 
     { get; set; }
 
     public bool MilitaryOrEducationQuestion  //This will double the NPCashBackRewards if true
@@ -40,8 +40,6 @@ namespace MyApplication
         }
         return totalCashBack;
     }
-
-    //Interface
 
     
     //ToString 

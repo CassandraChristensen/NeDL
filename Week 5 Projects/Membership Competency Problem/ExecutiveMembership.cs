@@ -2,7 +2,7 @@ using System;
 
 namespace MyApplication
 {
-  class ExecutiveMembership : BaseMembership
+  class ExecutiveMembership : BaseMembership, ISpecialOffer 
   {
     //Create my properties for: Cash back rewards Tier 1 and Tier 2
     public double ExecutiveCashBackRewardsTier1    //Less than or equal to 1000

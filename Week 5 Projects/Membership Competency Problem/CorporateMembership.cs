@@ -28,8 +28,6 @@ namespace MyApplication
         return totalCashBack;
     }
 
-    //Interface
-
     
     //ToString 
     public override string ToString()
