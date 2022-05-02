@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\bin\Debug\net6.0\Membership Competency Problem.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\bin\Debug\net6.0\Membership Competency Problem.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\bin\Debug\net6.0\Membership Competency Problem.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\bin\Debug\net6.0\Membership Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\bin\Debug\net6.0\ref\Membership Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\bin\Debug\net6.0\Membership Competency Problem.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\ref\Membership Competency Problem.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 5 Projects\Membership Competency Problem\obj\Debug\net6.0\Membership Competency Problem.genruntimeconfig.cache
