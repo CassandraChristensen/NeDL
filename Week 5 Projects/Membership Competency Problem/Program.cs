@@ -5,6 +5,16 @@ namespace MyApplication
 {
   class Program
   {
+      static double GetValidDouble (double lowValue)
+      {
+          double value;
+          do
+          { 
+          Console.WriteLine("please enter an amount greater than: " + lowValue);
+          value = Convert.ToDouble(Console.ReadLine());
+          } while (lowValue > value);
+          return value;
+      }
      
     
     static void Main(string[] args)
@@ -13,17 +23,14 @@ namespace MyApplication
         List<BaseMembership> membershipList = new List<BaseMembership>();
 
         //Hardcode data in
-        membershipList.Add(new RegularMembership(5263, "janedoe@gmail.com", "Regular Membership", 79.99, 1200, .01));
-        membershipList.Add(new ExecutiveMembership(6587, "johndoe@gmail.com", "Executive Membership", 150, 989, .01, .03));
-        membershipList.Add(new NonprofitMembership(2498, "luna@gmail.com", "Non-profit Membership", 45, 1000, .02, false));
+        membershipList.Add(new RegularMembership(5263, "janedoe@gmail.com", "Regular Membership", 400, 1200, .01));
+        membershipList.Add(new ExecutiveMembership(6587, "johndoe@gmail.com", "Executive Membership", 150, 1005, .01, .03));
+        membershipList.Add(new ExecutiveMembership(4781, "austin@gmail.com", "Executive Membership", 5, 500, .02, .04));
+        membershipList.Add(new NonprofitMembership(2498, "luna@gmail.com", "Non-profit Membership", 45, 1000, .02, true));
+        membershipList.Add(new NonprofitMembership(3569, "lauren@gmail.com", "Non-profit Membership", 30, 900, .03, false));
         membershipList.Add(new CorporateMembership(7152, "sookie@gmail.com", "Corporate Membership", 129.99, 500, .02));
 
-        /* //Read
-        foreach (BaseMembership aMember in membershipList)
-        {
-            Console.WriteLine(aMember);
-            Console.WriteLine("");
-        } */
+
 
         //Declare my variables
         bool userChoice;
@@ -74,41 +81,129 @@ namespace MyApplication
             //To do: If the option is C or c, then Create a new membership and add to the membership list. Be sure no duplicate membershipID, must be unique. 
             if (userChoiceString == "C" || userChoiceString == "c")
             {
-                Console.WriteLine("In the C area");
-                
-                /* int createMemberID;
+                bool memberIDTaken = true;
 
-                bool findMemberID = true;
                 //validate username 
+                Console.WriteLine("Please create a unique MemberID.");
+                int createMemberID = Convert.ToInt32(Console.ReadLine());
+
                 for (int index = 0; index < membershipList.Count; index++)
                 {
-                    do 
-                    {
-                        Console.WriteLine("Please create a unique MemberID.");
-                        createMemberID = Convert.ToInt32(Console.ReadLine());
-
                         
-                        if (membershipList[index].MembershipID != createMemberID)
+                        if (membershipList[index].MembershipID == createMemberID)
                         {
-                            findMemberID = false;
-                            Console.WriteLine("This is not a unique ID");
+                            memberIDTaken = true;
+                            Console.WriteLine("This is not a unique ID. Member not created.");
+                            Console.WriteLine("");
+                            break;
                         }
                         else
                         {
-                            Console.WriteLine("This is a unique ID");
-                            
-                        }
+                            memberIDTaken = false;
+                            Console.WriteLine("What type of membership are you wanting to create?");
+                            Console.WriteLine("Regular");
+                            Console.WriteLine("Corporate");
+                            Console.WriteLine("Nonprofit");
+                            Console.WriteLine("Executive");
+                            string updateMemberType = Console.ReadLine();
 
-                    } while (findMemberID == true);
-                } */
-               //create variables
+                            //Create if statements to go through prompt questions for creating memberID.
+                            if (updateMemberType == "Regular")
+                            {
+                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage
+                                Console.WriteLine("Please enter your email address.");
+                                string createEmail = Console.ReadLine();
+                                Console.WriteLine("Please enter the annual cost of your membership");
+                                double createAnnualCost = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your currently purchase balance.");
+                                double createPurchaseBalance = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your cash back rewards percentage. ");
+                                double createCashBack = Convert.ToDouble(Console.ReadLine());
+
+                                //create my object
+                                membershipList.Add(new RegularMembership(createMemberID, createEmail, updateMemberType, createAnnualCost, createPurchaseBalance, createCashBack ));
+                                
+                                //break to exit
+                                break;
+
+                            } //end of if for regular
+                            else if (updateMemberType == "Corporate")
+                            {
+                                
+                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
+                                Console.WriteLine("Please enter your email address.");
+                                string createEmailCorp = Console.ReadLine();
+                                Console.WriteLine("Please enter the annual cost of your membership");
+                                double createAnnualCostCorp = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your currently purchase balance.");
+                                double createPurchaseBalanceCorp = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your cash back rewards percentage. ");
+                                double createCashBackCorp = Convert.ToDouble(Console.ReadLine());
+
+                                //create my object
+                                membershipList.Add(new CorporateMembership(createMemberID, createEmailCorp, updateMemberType, createAnnualCostCorp, createPurchaseBalanceCorp, createCashBackCorp));
+                                
+                                //break to exit
+                                break;
+
+                            } //end of corporate else if
+                            else if (updateMemberType == "Nonprofit")
+                            {   
+                                
+                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
+                                Console.WriteLine("Please enter your email address.");
+                                string createEmailNP = Console.ReadLine();
+                                Console.WriteLine("Please enter the annual cost of your membership");
+                                double createAnnualCostNP = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your currently purchase balance.");
+                                double createPurchaseBalanceNP = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("True or False: Are you in the Military or apart of an Educational Organization?");
+                                bool createMiliaryEdu = Convert.ToBoolean(Console.ReadLine());
+                                Console.WriteLine("Please enter your cash back rewards percentage");
+                                double createCashBackNP = Convert.ToDouble(Console.ReadLine());
+                                
+                                //create my object
+                                membershipList.Add(new NonprofitMembership(createMemberID, createEmailNP, updateMemberType, createAnnualCostNP, createPurchaseBalanceNP, createCashBackNP, createMiliaryEdu));
+                                
+                                //break to exit.
+                                break; 
+
+                            } //end of non profit else if
+                            else if (updateMemberType == "Executive")
+                            {
+                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
+                                Console.WriteLine("Please enter your email address.");
+                                string createEmailExec = Console.ReadLine();
+                                Console.WriteLine("Please enter the annual cost of your membership");
+                                double createAnnualCostExec = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your currently purchase balance.");
+                                double createPurchaseBalanceExec = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your cash back rewards percentage for Tier 1. (When your purchase balance is less than $1000.)");
+                                double createTier1CashBackExec = Convert.ToDouble(Console.ReadLine());
+                                Console.WriteLine("Please enter your cash back rewards percentage for Tier 2. (When your purchase balance is greater than 1000.)");
+                                double createTier2CashBackExec = Convert.ToDouble (Console.ReadLine());
+
+                                //Create my new object
+                                membershipList.Add(new ExecutiveMembership (createMemberID, createEmailExec, updateMemberType, createAnnualCostExec, createPurchaseBalanceExec, createTier1CashBackExec, createTier2CashBackExec));
+                                
+                                //break to exit.
+                                break;
+
+                            } //end else if for type of membership
+                        } //end else
+                        
+                }//end for loop
+                if (!(memberIDTaken))
+                {
+                    Console.WriteLine("Member has been created.");
+                }
 
             } //if else
 
             //To do: If the option is R or r, then read all of the members in the list. 
             else if (userChoiceString == "R" || userChoiceString == "r")
             {
-                Console.WriteLine("In the R area");
+                
                 foreach (BaseMembership aMember in membershipList)
                 {
                     Console.WriteLine(aMember);
@@ -119,7 +214,6 @@ namespace MyApplication
             //To do: If the option is U or u, then update an existing membership based on membershipID
             else if (userChoiceString == "U" || userChoiceString == "u")
             {
-                Console.WriteLine("In the U area");
                 
                 //create variables
                 bool memberIDFound = false;
@@ -145,8 +239,7 @@ namespace MyApplication
 
                         //Update variables. Creating these so i may do validation on the user answers. 
                         string updateEmail = "";
-                        double updateAnnualcost = 0.0;
-                        double updatePurchaseBalance = 0.0;
+                        
                         switch (userUpdateAnswer)
                         {
                             case 1: 
@@ -166,36 +259,19 @@ namespace MyApplication
                             break;
 
                             case 2:
-                                do
-                                {
-                                    Console.WriteLine("What do you want to update your annual cost to?");
-                                    updateAnnualcost = Convert.ToDouble(Console.ReadLine());
-                                    if (updateAnnualcost >= 0)
-                                    {
-                                        membershipList[index].AnnualCost = updateAnnualcost; 
-                                    }
-                                    else 
-                                    {
-                                        Console.WriteLine("Invalid entry. Please enter a number greater than or equal to zero.");
-                                    }
-
-                                } while (updateAnnualcost < 0 );
+                               
+                                Console.WriteLine("What do you want to update your annual cost to?");
+                                double updateAnnualcost = GetValidDouble(0);
+                                membershipList[index].AnnualCost = updateAnnualcost;
+                                   
                                 break; 
 
                             case 3:
-                            do
-                            {
+                            
                                 Console.WriteLine("What do you want to update your monthly purchase balance to? ");
-                                updatePurchaseBalance = Convert.ToDouble(Console.ReadLine());
-                                if ( updatePurchaseBalance >= 0)
-                                {
-                                    membershipList[index].CurrentPurchaseBalance = updatePurchaseBalance;
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Please enter a number greater than zero.");
-                                }
-                            } while (updatePurchaseBalance < 0);
+                                double updatePurchaseBalance = GetValidDouble(0);
+                                membershipList[index].CurrentPurchaseBalance = updatePurchaseBalance;
+                                
                             break;
                         }
                         
@@ -216,51 +292,49 @@ namespace MyApplication
             //To do: If the option is D or d, then delete an existing membership based on membershipID
             else if (userChoiceString == "D" || userChoiceString == "d")
             {
-                Console.WriteLine("In the D area");
-
-                //create variables
+            
                 bool memberIDFound = false;
 
                 //Prompt for the membershipID and then validate to make sure that there is one. 
-                
                 Console.WriteLine("Please enter in the membershipID that you wish to delete");
                 int findMemberID = Convert.ToInt32(Console.ReadLine());
 
                 //using a for loop to "search" for the memberID.
-                
                 for (int index = 0; index < membershipList.Count; index ++ )  
                 {
+                    //if found 
                     if (membershipList[index].MembershipID == findMemberID)
                     {
-                        
+                        //prompt to make sure they really want to delete.
                         Console.WriteLine("Are you sure you want to delete this membership? Yes or No?");
                         string deleteAnswer = Console.ReadLine();
                         if (deleteAnswer == "Yes")
                         {
                             memberIDFound = true;
                             membershipList.RemoveAt(index);
+                            Console.WriteLine("MemberID was found, and has been deleted.");
                         }
                         else
                         {
+                            memberIDFound = true;
                             Console.WriteLine("MemberID was found, however will not be deleted.");
+                            Console.WriteLine("");
                         }
 
                     }
                 }
-                if (memberIDFound == true)
-                {
-                    Console.WriteLine("MemberID was found and has been deleted.");
-                }
-                else 
+                //error message if not found.
+                if (!(memberIDFound)) 
                 {
                     Console.WriteLine("MemberID was not found. Nothing was deleted.");
+                    Console.WriteLine("");
                 }
             }
 
             //To do: If the option is L or l, then list all of the memberships in the list including info for each account type
             else if (userChoiceString == "L" || userChoiceString == "l")
             {
-                Console.WriteLine("In the L area");
+                //print to console each member in list
                 foreach (BaseMembership aMember in membershipList)
                 {
                     Console.WriteLine(aMember);
@@ -272,20 +346,98 @@ namespace MyApplication
             //If the membership exists add the purchase amount to the monthly purchase total. 
             else if (userChoiceString == "P" || userChoiceString == "p")
             {
-                Console.WriteLine("In the P area");
+                bool memberIDFound= false;
+
+                //Prompt for memberID
+                Console.WriteLine("Please enter your memberID");
+                int purchaseMemberID = Convert.ToInt32(Console.ReadLine());
+
+                //for loop to search through index for member id. 
+                for (int index = 0; index < membershipList.Count; index++)
+                {
+                    //if found, apply purchase.
+                    if (membershipList[index].MembershipID == purchaseMemberID)
+                    {
+                        memberIDFound = true;
+                        Console.WriteLine("What is the amount of your purchase?");
+                        double purchaseAmount = GetValidDouble(0);
+                        membershipList[index].PurchaseMethod(purchaseAmount);
+                        Console.WriteLine("Purchase has been added. New monthly purchase balance is: $" + membershipList[index].CurrentPurchaseBalance);
+                        Console.WriteLine("");
+
+                    }
+                }
+                //error statement if not found
+                if (memberIDFound == false)
+                {
+                    Console.WriteLine("MemberID not found. Purchase not applied to balance.");
+                }
+
+                
             }
 
             //To do: If the option is T or t, then perform a return transaction by getting a membership number from the user, and a return amount. 
             //If the membership exists then subtract the return from the monthly purchase total. 
             else if (userChoiceString == "T" || userChoiceString == "t")
             {
-                Console.WriteLine("In the T area");
+                bool memberIDFound= false;
+
+                //prompt for member id
+                Console.WriteLine("Please enter your memberID");
+                int purchaseMemberID = Convert.ToInt32(Console.ReadLine());
+
+                //for loop to search through member id
+                for (int index = 0; index < membershipList.Count; index++)
+                {
+
+                    //if found, apply return
+                    if (membershipList[index].MembershipID == purchaseMemberID)
+                    {
+                        memberIDFound = true;
+                        Console.WriteLine("What is the amount of your return?");
+                        double purchaseAmount = GetValidDouble(0);
+                        membershipList[index].ReturnMethod(purchaseAmount);
+                        Console.WriteLine("Return has been accepted. New monthly purchase balance is: $" + membershipList[index].CurrentPurchaseBalance);
+                        Console.WriteLine("");
+
+                    }
+                }
+                //error statement if not found
+                if (memberIDFound == false)
+                {
+                    Console.WriteLine("MemberID not found. Purchase not applied to balance.");
+                }
             }
 
             //To do: If the option is A or a, apply cash-back rewards as described by getting a membership number 
             else if (userChoiceString == "A" || userChoiceString == "a")
             {
-                Console.WriteLine("In the A area");
+                bool memberIDFound = false;
+
+                //Prompt for a valid member id
+                Console.WriteLine("Please enter in your memberID");
+                int applyMemberID = Convert.ToInt32(Console.ReadLine());
+
+                //For loop to search through index 
+                for (int index = 0; index < membershipList.Count; index++)
+                {
+                    
+                    //If membershipID is found then apply cash back rewards. Remember to zero out balance afterwards.
+                    if (membershipList[index].MembershipID == applyMemberID)
+                    {
+                        memberIDFound = true;
+                        Console.WriteLine("Your cash back reward request for membership: " + membershipList[index].MembershipID + " in the amount of $" + membershipList[index].CashBackAbstractMethod() + " has been made.");
+                        Console.WriteLine("");
+                        membershipList[index].CurrentPurchaseBalance = 0;
+                    }
+                }   
+                //Error statement if not found
+                if (memberIDFound == false)
+                {
+                    Console.WriteLine("MemberID was not found. Cash back rward request not applied.");
+                    Console.WriteLine("");
+                }             
+
             }
 
             //To do: If none of the above, then Quit. 
