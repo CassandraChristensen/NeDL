@@ -1,0 +1,15 @@
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\bin\Debug\net6.0\Week 1 Project Java.exe
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\bin\Debug\net6.0\Week 1 Project Java.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\bin\Debug\net6.0\Week 1 Project Java.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\bin\Debug\net6.0\Week 1 Project Java.dll
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\bin\Debug\net6.0\ref\Week 1 Project Java.dll
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\bin\Debug\net6.0\Week 1 Project Java.pdb
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.dll
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\ref\Week 1 Project Java.dll
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.pdb
+C:\Users\CChristensen\Desktop\NeDL\Java Practice\Week 1 Project Java\obj\Debug\net6.0\Week 1 Project Java.genruntimeconfig.cache

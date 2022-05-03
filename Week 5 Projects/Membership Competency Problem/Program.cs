@@ -84,121 +84,115 @@ namespace MyApplication
                 bool memberIDTaken = true;
 
                 //validate username 
+                
                 Console.WriteLine("Please create a unique MemberID.");
                 int createMemberID = Convert.ToInt32(Console.ReadLine());
 
                 for (int index = 0; index < membershipList.Count; index++)
                 {
                         
-                        if (membershipList[index].MembershipID == createMemberID)
-                        {
-                            memberIDTaken = true;
-                            Console.WriteLine("This is not a unique ID. Member not created.");
-                            Console.WriteLine("");
-                            break;
-                        }
-                        else
-                        {
-                            memberIDTaken = false;
-                            Console.WriteLine("What type of membership are you wanting to create?");
-                            Console.WriteLine("Regular");
-                            Console.WriteLine("Corporate");
-                            Console.WriteLine("Nonprofit");
-                            Console.WriteLine("Executive");
-                            string updateMemberType = Console.ReadLine();
-
-                            //Create if statements to go through prompt questions for creating memberID.
-                            if (updateMemberType == "Regular")
-                            {
-                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage
-                                Console.WriteLine("Please enter your email address.");
-                                string createEmail = Console.ReadLine();
-                                Console.WriteLine("Please enter the annual cost of your membership");
-                                double createAnnualCost = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your currently purchase balance.");
-                                double createPurchaseBalance = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your cash back rewards percentage. ");
-                                double createCashBack = Convert.ToDouble(Console.ReadLine());
-
-                                //create my object
-                                membershipList.Add(new RegularMembership(createMemberID, createEmail, updateMemberType, createAnnualCost, createPurchaseBalance, createCashBack ));
-                                
-                                //break to exit
-                                break;
-
-                            } //end of if for regular
-                            else if (updateMemberType == "Corporate")
-                            {
-                                
-                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
-                                Console.WriteLine("Please enter your email address.");
-                                string createEmailCorp = Console.ReadLine();
-                                Console.WriteLine("Please enter the annual cost of your membership");
-                                double createAnnualCostCorp = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your currently purchase balance.");
-                                double createPurchaseBalanceCorp = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your cash back rewards percentage. ");
-                                double createCashBackCorp = Convert.ToDouble(Console.ReadLine());
-
-                                //create my object
-                                membershipList.Add(new CorporateMembership(createMemberID, createEmailCorp, updateMemberType, createAnnualCostCorp, createPurchaseBalanceCorp, createCashBackCorp));
-                                
-                                //break to exit
-                                break;
-
-                            } //end of corporate else if
-                            else if (updateMemberType == "Nonprofit")
-                            {   
-                                
-                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
-                                Console.WriteLine("Please enter your email address.");
-                                string createEmailNP = Console.ReadLine();
-                                Console.WriteLine("Please enter the annual cost of your membership");
-                                double createAnnualCostNP = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your currently purchase balance.");
-                                double createPurchaseBalanceNP = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("True or False: Are you in the Military or apart of an Educational Organization?");
-                                bool createMiliaryEdu = Convert.ToBoolean(Console.ReadLine());
-                                Console.WriteLine("Please enter your cash back rewards percentage");
-                                double createCashBackNP = Convert.ToDouble(Console.ReadLine());
-                                
-                                //create my object
-                                membershipList.Add(new NonprofitMembership(createMemberID, createEmailNP, updateMemberType, createAnnualCostNP, createPurchaseBalanceNP, createCashBackNP, createMiliaryEdu));
-                                
-                                //break to exit.
-                                break; 
-
-                            } //end of non profit else if
-                            else if (updateMemberType == "Executive")
-                            {
-                                //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
-                                Console.WriteLine("Please enter your email address.");
-                                string createEmailExec = Console.ReadLine();
-                                Console.WriteLine("Please enter the annual cost of your membership");
-                                double createAnnualCostExec = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your currently purchase balance.");
-                                double createPurchaseBalanceExec = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your cash back rewards percentage for Tier 1. (When your purchase balance is less than $1000.)");
-                                double createTier1CashBackExec = Convert.ToDouble(Console.ReadLine());
-                                Console.WriteLine("Please enter your cash back rewards percentage for Tier 2. (When your purchase balance is greater than 1000.)");
-                                double createTier2CashBackExec = Convert.ToDouble (Console.ReadLine());
-
-                                //Create my new object
-                                membershipList.Add(new ExecutiveMembership (createMemberID, createEmailExec, updateMemberType, createAnnualCostExec, createPurchaseBalanceExec, createTier1CashBackExec, createTier2CashBackExec));
-                                
-                                //break to exit.
-                                break;
-
-                            } //end else if for type of membership
-                        } //end else
+                    if (membershipList[index].MembershipID == createMemberID)
+                    {
+                        memberIDTaken = true;
+                        Console.WriteLine("This is not a unique ID. Member not created.");
+                        break;
+                    }
+                    else
+                    {
+                        memberIDTaken = false;
+                        Console.WriteLine("This is a unique ID."); 
+                    } //end else
                         
                 }//end for loop
                 if (!(memberIDTaken))
                 {
+                    Console.WriteLine("What type of membership are you wanting to create?");
+                        Console.WriteLine("Regular");
+                        Console.WriteLine("Corporate");
+                        Console.WriteLine("Nonprofit");
+                        Console.WriteLine("Executive");
+                        string updateMemberType = Console.ReadLine();
+ 
+                        //Create if statements to go through prompt questions for creating memberID.
+                        if (updateMemberType == "Regular")
+                        {
+                            //Prompt for email, annual cost of membership, current purchase balance and cash back percentage
+                            Console.WriteLine("Please enter your email address.");
+                            string createEmail = Console.ReadLine();
+                            Console.WriteLine("Please enter the annual cost of your membership");
+                            double createAnnualCost = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your currently purchase balance.");
+                            double createPurchaseBalance = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your cash back rewards percentage. ");
+                            double createCashBack = Convert.ToDouble(Console.ReadLine());
+
+                            //create my object
+                            membershipList.Add(new RegularMembership(createMemberID, createEmail, updateMemberType, createAnnualCost, createPurchaseBalance, createCashBack ));
+                            
+
+                        } //end of if for regular
+                        else if (updateMemberType == "Corporate")
+                        {
+                            
+                            //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
+                            Console.WriteLine("Please enter your email address.");
+                            string createEmailCorp = Console.ReadLine();
+                            Console.WriteLine("Please enter the annual cost of your membership");
+                            double createAnnualCostCorp = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your currently purchase balance.");
+                            double createPurchaseBalanceCorp = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your cash back rewards percentage. ");
+                            double createCashBackCorp = Convert.ToDouble(Console.ReadLine());
+
+                            //create my object
+                            membershipList.Add(new CorporateMembership(createMemberID, createEmailCorp, updateMemberType, createAnnualCostCorp, createPurchaseBalanceCorp, createCashBackCorp));
+                            
+
+                        } //end of corporate else if
+                        else if (updateMemberType == "Nonprofit")
+                        {   
+                            
+                            //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
+                            Console.WriteLine("Please enter your email address.");
+                            string createEmailNP = Console.ReadLine();
+                            Console.WriteLine("Please enter the annual cost of your membership");
+                            double createAnnualCostNP = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your currently purchase balance.");
+                            double createPurchaseBalanceNP = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("True or False: Are you in the Military or apart of an Educational Organization?");
+                            bool createMiliaryEdu = Convert.ToBoolean(Console.ReadLine());
+                            Console.WriteLine("Please enter your cash back rewards percentage");
+                            double createCashBackNP = Convert.ToDouble(Console.ReadLine());
+                            
+                            //create my object
+                            membershipList.Add(new NonprofitMembership(createMemberID, createEmailNP, updateMemberType, createAnnualCostNP, createPurchaseBalanceNP, createCashBackNP, createMiliaryEdu));
+                            
+
+                        } //end of non profit else if
+                        else if (updateMemberType == "Executive")
+                        {
+                            //Prompt for email, annual cost of membership, current purchase balance and cash back percentage 
+                            Console.WriteLine("Please enter your email address.");
+                            string createEmailExec = Console.ReadLine();
+                            Console.WriteLine("Please enter the annual cost of your membership");
+                            double createAnnualCostExec = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your currently purchase balance.");
+                            double createPurchaseBalanceExec = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your cash back rewards percentage for Tier 1. (When your purchase balance is less than $1000.)");
+                            double createTier1CashBackExec = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Please enter your cash back rewards percentage for Tier 2. (When your purchase balance is greater than 1000.)");
+                            double createTier2CashBackExec = Convert.ToDouble (Console.ReadLine());
+
+                            //Create my new object
+                            membershipList.Add(new ExecutiveMembership (createMemberID, createEmailExec, updateMemberType, createAnnualCostExec, createPurchaseBalanceExec, createTier1CashBackExec, createTier2CashBackExec));
+                            
+
+                        } //end of else if
                     Console.WriteLine("Member has been created.");
                 }
+                
 
-            } //if else
+            } //if else for option Create
 
             //To do: If the option is R or r, then read all of the members in the list. 
             else if (userChoiceString == "R" || userChoiceString == "r")
