@@ -100,7 +100,7 @@ namespace MyApplication
                     else
                     {
                         memberIDTaken = false;
-                        Console.WriteLine("This is a unique ID."); 
+                        //Console.WriteLine("This is a unique ID."); 
                     } //end else
                         
                 }//end for loop
