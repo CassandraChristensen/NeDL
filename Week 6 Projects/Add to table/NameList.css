@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+ tr:hover {background-color: #e3b7ee;} 
+
+.myflexboxRow {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.myflexboxColumn{
+    flex: 33%;
+    padding: 20px;
+
+}
