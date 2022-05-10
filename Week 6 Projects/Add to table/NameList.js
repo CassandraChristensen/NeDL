@@ -56,3 +56,5 @@ function clearList3(){
     var tableRef = document.getElementById("myList3");
     tableRef.innerHTML = "";
 }
+
+
