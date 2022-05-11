@@ -116,7 +116,4 @@ function reverse( str )
      return theword === reverseword;
  }
 
- //trying on my own 
- function PalindromeCheck2 (theword){
-     var reverseword = theword / 2.reverse().join("");
- }
+ 
