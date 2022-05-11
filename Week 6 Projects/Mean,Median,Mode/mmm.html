@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mean, Medium, Mode</title>
+    <!--This is my CSS. Linking to my file that has styling code.-->
+    <link rel="stylesheet" href="mmm.css">
+
+    <!--Javascript external-->
+    <script src="mmm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!--Class may be used my multiple HTML elements, but id name can only be used by one HTML element within the page
+        Both are applying the CSS. -->
+        <!--This is my header on my webpage-->
+        <header class="header">
+            <h1 id="title" class="text-center">Mean, Median and Mode Application</h1>
+        </header>
+        
+        <!--start my form get a name from the user-->
+        <div class="myflexboxRow">
+            <!--Create my form so i can get user input-->
+            <div class="myflexboxColumn">
+                <form name="myForm"> 
+                    <!--Label my text fields-->
+                    <label for="minRange">Please enter a minimum number</label>
+                    <input type="number" id="minRange" name="minRange" value=""><br>
+                    <label for="maxRange">Please enter a maximum number</label>
+                    <input type="number" id="maxRange" name="=maxRange" value=""><br /><br />
+                    <label for="newNumber">Please enter the integer you would like to add to list</label>
+                    <input type="number" id="newNumber" name="newNumber" value=""><br /><br />
+                    <input id="btnAdd" type="button" value="Include" onclick="validateANDadd()">
+                    <input type ="reset">
+                </form> 
+            </div>
+            
+            <!--Create table 1. This will display my number-->
+            <div class="myflexboxColumn">
+                <h2>List 1</h2>
+                <table id ="myList1">
+                </table>
+                <br /><br />
+                <input type="button" value="Clear the list" onclick="clearList()">
+            </div>
+            
+            <!--Create table 2. This will display, Mean, Medium, Mode-->
+            <div class="myflexboxColumn">
+                <h2>Central tendencies</h2>
+                <p>Mean: <label id="theMean">n/a</label></p>
+                <p>Median: <label id="theMedian">n/a</label></p>
+                <p>Mode(s): <label id="theMode">n/a</label></p>
+            </div>
+            
+            
+        </div> <!-- //end of myflexboxRow -->
+</body>
+</html>
