@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <!--Link my CSS file-->
+    <link rel="stylesheet" href="toDo.css">
+
+
+    <!--Link my js file-->
+    <script src="toDo.js"></script>
+
+
+</head>
+    <h2> To-Do List </h2>
+    <p> Use this form to create a To-Do List. You may add, delete or strike through items that have been completed already. </p>
+
+<body>
+
+    <!--1. Create a div class for all elements in body: DONE -->
+    <!--2. Create a div class for each element in body. One for Form, and One for my Table: DONE-->
+    <!--3. Create a form for the user to input answers: DONE-->
+    <!--4. Label my text: DONE-->
+    <!--5. Input text box to collect user answer: DONE-->
+    <!--6. Add buttons. Will need 3 buttons: Add, Remove, Strike through to mark as "Complete" (Complete is optional, but highly desirable.): DONE. Functions not working yet.-->
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <form name="myForm">
+                <label for="itemName">List Item Name</label><br>
+                <input type="text" id="itemName" name="itemName" value=""><br>
+                <input type="button" value="Add Item" onclick="AddFunction()">
+                <input type="button" value="Delete Item" onclick="DeleteFunction()">
+                <input type="button" value="Complete" onclick="CompleteFunction()">
+            </form>
+        </div><!--End Column-->
+
+    <!--Create 1 table to list the user's answers-->
+    <!--Will need 1 button to clear all-->
+        <div class="myflexboxColumn">
+            <h2> My List </h2>
+            <table id="myTable">
+            </table><br /><br /> 
+            <button type="button" onclick="ClearAllFunction()">Clear All</button>
+        </div><!--End Column-->
+
+
+    </div><!--End Row-->
+
+
+    
+</body>
+</html>

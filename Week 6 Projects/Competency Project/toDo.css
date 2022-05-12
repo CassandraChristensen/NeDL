@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+ tr:hover {background-color: #e3b7ee;} 
+
+.myflexboxRow {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.myflexboxColumn{
+    flex: 25%;
+    padding: 20px;
+
+} 
+
+@media screen and (max-width: 600px) {
+    .myflexboxRow {
+        flex-direction: column;
+    }
+    
+}
