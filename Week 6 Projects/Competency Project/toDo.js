@@ -22,20 +22,29 @@ function AddFunction() {
 function DeleteFunction() {
     //a. Declare variable, label the type, go to document>forms>[form name][formitem], insert that value into variable
     var deleteItem = document.forms["myForm"]["itemName"].value;
+    var itemFound = false;
     //b. Validate the value entered, if  not return with an error 
-    if (deleteItem == "") {
+    /* if (deleteItem == "") {
         alert("Please enter an item to delete from the list.");
         return false;
+    } */
+    //c. Create the table, assign the value to it by using, GetElementID, then do a for loop to search through the table and find the word. 
+    //d. If not found, give an error
+    //e. If found, delete the row. https://www.w3schools.com/jsref/met_table_deleterow.asp
+    this.tableRef = document.getElementById("myTable");
+    for (var index = 0; index < this.tableRef.rows.length; index++) {
+        //loop through rows 
+        if (this.tableRef.rows[index].innerHTML == deleteItem) {
+            (this.tableRef.deleteRow(index)).innerHTML;
+            document.forms["myForm"]["itemName"].value = "";
+            itemFound = true;
+            return true;
+        }
     }
-    //c. Create the table variable, assign the value to it by using, GetElementID, then do a for loop to search through the table and find the word. 
-    else {
-        this.tableRef = document.getElementById("myTable");
-        /* for(let index : number = 0, row; row = this.tableRef.rows[index]; index++) {
-            //loop through rows
-            if (this.tableRef.row[index].innerHTML == deleteItem){
-                this.tableRef.row[index] == "";
-            }
-        } */
+    if (itemFound == false) {
+        alert("Please enter an item already in the list to delete");
+        document.forms["myForm"]["itemName"].value = "";
+        return false;
     }
 } //end delete function 
 //3. Create Complete Function (Optional)
