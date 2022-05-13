@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <!--Link my CSS file-->
+    <link rel="stylesheet" href="tbr.css">
+
+
+    <!--Link my js file-->
+    <script src="tbr.js"></script>
+
+
+</head>
+    <h2> Book Inventory </h2>
+    <p> Use this form took keep an inventory of books already ready and books to be read. </p>
+
+<body>
+
+    <!--1. Create a div class for all elements in body: DONE -->
+    <!--2. Create a div class for each element in body. One for Form, and One for my Table: DONE-->
+    <!--3. Create a form for the user to input answers: DONE-->
+    <!--4. Label my text: DONE-->
+    <!--5. Input text box to collect user answer: DONE-->
+    <!--6. Add buttons. Will need 3 buttons: Add, Remove, Strike through to mark as "Complete" (Complete is optional, but highly desirable.): DONE. Functions not working yet.-->
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <form name="myForm">
+                <label for="bookName">Book Title</label><br>
+                <input type="text" id="bookName" name="bookName" value=""><br>
+                <input type="button" value="Add Book" onclick="AddFunction()">
+                <input type="button" value="Delete Delete Book" onclick="DeleteFunction()">
+                <input type="button" value="Update Book Name" onclick="UpdateFunction()">
+                <input type="button" value="Array Add" onclick="createArrayAddBook()">
+            </form>
+        </div><!--End Column-->
+
+    <!--Create table 1 for book to be read-->
+    <!--Will need 1 button to clear all-->
+        <div class="myflexboxColumn">
+            <h2> Books TBR </h2>
+            <table id="myTable">
+            </table><br /><br /> 
+            <button type="button" onclick="ClearAllFunction()">Clear All</button>
+            <button type="button" onclick="MoveToAlreadyRead()">Move --></button>
+        </div><!--End Column-->
+
+    <!--Create table 2 for books read already-->
+        <div class="myflexboxColumn">
+            <h2> Books Already Read </h2>
+            <table id="myTable2">
+            </table><br /><br />
+            <button type="burron" onclick="ClearAllFunction()">Clear all</button>
+        </div>
+
+
+    </div><!--End Row-->
+
+
+    
+</body>
+</html>
