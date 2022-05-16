@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Exercise - Javascript Sampling</title>
+
+    <link rel="stylesheet" href="quote.css">
+    <script src="quote.js"></script>
+</head>
+<body>
+    <h1>Web Service API Consumer Example</h1>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <h2>Obtain user information</h2>
+            <label for="newQuoteLength">Quote Length</label>
+            <select id="newQuoteLength">
+                <option value=1>Small</option>
+                <option value=2>Medium</option>
+                <option value=3>Large</option>
+            </select><br /><br />
+            <input type="button" value="Get my Quote!" onclick="getQuote()">
+        </div>
+        <div class="myflexboxColumn">
+            <h2>Returned data in raw JSON</h2>
+            <p id="myRawData">
+            </p>
+        </div>
+        <div class="myflexboxColumn">
+            <h1>Random Quote Generated</h1>
+            <h2 id="theQuote"></h2>
+            <p id="theAuthor"></p>
+            <p id="theDate"></p>
+        </div>
+    </div>    
+</body>
+</html>
