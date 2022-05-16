@@ -75,7 +75,6 @@ function CompleteFunction(){
 //a. Declare variable, label the type, go to document>forms>[form name][formitem], insert that value into variable
     var completeItem : string = document.forms["myForm"]["itemName"].value;
 
-
     var itemFound2 : boolean = false;
 
 //b. Declare tableRef, type: HTMLTable Element (object), allows access to properties. 
