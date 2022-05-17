@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Link the css-->
+    <link rel="stylesheet" href="jokes.css">
+
+    <!--Link the js -->
+    <script src="jokes.js"></script>
+
+</head>
+<h1>Chuck Norris Jokes</h1>
+<body>
+
+    <div class="myflexboxRow">
+
+        <div class="myflexboxColumn">
+            <label for="newCategory">Pick a joke category!</label>
+            <select id="newCategory">
+                <option value=animal>Animal</option>
+                <option value=career>Career</option>
+                <option value=celebrity>Celebrity</option>
+                <option value=dev>Dev</option>
+                <option value=fashion>Fashion</option>
+                <option value=food>Food</option>
+                <option value=history>History</option>
+                <option value=money>Money</option>
+                <option value=movie>Movie</option>
+                <option value=music>Music</option>
+                <option value=science>Science</option>
+                <option value=sport>Sport</option>
+                <option value=travel>Travel</option>
+            </select><br /><br />
+            <input type="button" value="Get Joke" onclick="getJoke()">
+               
+
+        </div> <!--flexbox Column-->
+
+        <div class="myflexboxColumn">
+            <h1>Joke: </h1>
+            <h2 id="jokeCategory"></h2>
+            <p id="newJoke"></p>
+        </div>
+
+
+    </div> <!--flexbox Row-->
+
+    
+</body>
+</html>
