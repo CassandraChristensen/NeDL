@@ -85,7 +85,7 @@ function ClearAllFunction(){
 }
 
 //Make table into an array 
-function createArrayDeleteBook(){
+/* function createArrayDeleteBook(){
 
 
     var deleteBookTitle : string = document.forms["myForm"]["bookName"].value;
@@ -94,6 +94,7 @@ function createArrayDeleteBook(){
     
     if (deleteBookTitle == ""){
         alert("Fail. Try again.");
+        console.log("blank entry");
         return false;
     }
     else{
@@ -118,4 +119,6 @@ function createArrayDeleteBook(){
     }
 
 
-}
+}  */
+
+//Can i select a book and read the summary
