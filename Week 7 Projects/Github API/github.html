@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repos</title>
+
+    <!--Link to css-->
+    <link rel="stylesheet" href="github.css">
+
+    <!--Link to js-->
+    <script src="github.js"></script>
+
+</head>
+<!--My Header-->
+<h1>Look up a GitHub Repo</h1>
+<body>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <form name="myForm">
+                <label for="newGitHub">GitHub Username:</label><br>
+                <input type="text" id="newGitHub" name="newGitHub" value=""><br><br>
+                <input type="button" value="Submit" onclick="getGitHubUsername()"> 
+            </form>
+        </div><!--flexbox Column-->
+
+        <div class="myflexboxColumn">
+            <h1>List of GitHub repos</h1>
+            <h2 id="username"></h2>
+            <p id="repos"></p>
+        </div><!--flexbox Column-->
+
+
+    </div><!--flexbox Row-->
+
+</body>
+</html>
