@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repos</title>
+
+    <!--Link to css-->
+    <link rel="stylesheet" href="weather.css">
+
+    <!--Link to js-->
+    <script src="weather.js"></script>
+
+</head>
+<!--My Header-->
+<h1>Look up a GitHub Repo</h1>
+<body>
+    <div class="myflexboxRow">
+        <div class="myflexboxColumn">
+            <form name="myForm">
+                <label for="newOffice">Select new office to receive a weather report from:</label><br>
+                <select id="newOffice" name="newOffice">
+                    <option value="GID">Hastings</option>
+                    <option value="TOP">Topeka</option>
+                    <option value="LOT">Chicago</option>
+                    <option value="BOU">Boulder</option>
+                    <option value="MPX">Minneapolis</option>
+                <input type="button" value="Submit" onclick="getWeatherForecast()"> 
+            </form>
+        </div><!--flexbox Column-->
+
+        <div class="myflexboxColumn">
+            <h2>Days of the Week</h2>
+            <p id="myDays"></p>
+        </div><!--flexbox Column-->
+
+        <div class="myflexboxColumn">
+            <h2>Weather Summary</h2>
+            <p id="myWeather"></p>
+        </div>
+
+        <div class="myflexboxColumn">
+            <h2>Temperature</h2>
+            <p id="myTemp"></p>
+        </div>
+
+
+    </div><!--flexbox Row-->
+
+</body>
+</html>
