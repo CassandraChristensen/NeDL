@@ -17,7 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
-<h1>Chuck Norris Jokes</h1>
+<h1 style="color: rgb(135, 124, 235)">Chuck Norris Jokes</h1>
 <body>
 
 
@@ -62,7 +62,7 @@
 
     <div class="myflexboxRow">
 
-        <div class="myflexboxColumn">
+        <div class="myflexboxColumn" style="color: rgb(255, 0, 255)">
             
                 <label for="newCategory">Pick a joke category!:</label>
                 <select class="form-control" id="newCategory">
@@ -70,6 +70,15 @@
                   <option value=career>Career</option>
                   <option value=celebrity>Celebrity</option>
                   <option value=dev>Dev</option>
+                  <option value=fashion>Fashion</option>
+                  <option value=food>Food</option>
+                  <option value=history>History</option>
+                  <option value=money>Money</option>
+                  <option value=movie>Movie</option>
+                  <option value=music>Music</option>
+                  <option value=science>Science</option>
+                  <option value=sport>Sport</option>
+                  <option value=travel>Travel</option>
                 </select>
                 <br>
                 <input type="button" class="btn btn-info btn-lg" value="Get Joke" onclick="getJoke()">
@@ -79,19 +88,19 @@
         </div> <!--flexbox Column-->
 
         <div class="myflexboxColumn">
-            <h2>Raw Data:</h2>
-            <p id="rawData"></p>
+            <h2 style="color:aqua">Raw Data:</h2>
+            <p id="rawData" style="color:rgb(47, 150, 175)"></p>
         </div>
 
         <div class="myflexboxColumn">
-            <h1>Joke: </h1>
-            <h2 id="jokeCategory"></h2>
+            <h1 style="color: pink">Joke: </h1>
+            <h2 id="jokeCategory" style="color: purple"></h2>
             
         
             <div class="container">
                 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Click to show joke</button>
                 <div id="demo" class="collapse">
-                    <p id="newJoke"></p>
+                    <p id="newJoke" style="color: lightpink"></p>
                 </div>
             </div>
         </div>
