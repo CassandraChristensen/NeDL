@@ -5,11 +5,13 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CarouselPicsComponent } from './carousel-pics/carousel-pics.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    CarouselPicsComponent,
    
   ],
   imports: [
