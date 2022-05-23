@@ -9,7 +9,7 @@
   .myflexboxRow {
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: rgb(245, 239, 239);
    
   }
   
@@ -17,7 +17,7 @@
   .myflexboxColumn {
     flex: 28%;
     padding: 20px;
-    background-color: black;
+    background-color: rgb(248, 244, 244);
     
     
   }
