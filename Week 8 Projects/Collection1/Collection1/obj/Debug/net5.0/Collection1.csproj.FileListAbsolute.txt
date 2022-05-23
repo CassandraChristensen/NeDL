@@ -1,0 +1,16 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\bin\Debug\net5.0\Collection1.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\bin\Debug\net5.0\Collection1.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\bin\Debug\net5.0\Collection1.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\bin\Debug\net5.0\Collection1.runtimeconfig.dev.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\bin\Debug\net5.0\Collection1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\bin\Debug\net5.0\ref\Collection1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\bin\Debug\net5.0\Collection1.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\ref\Collection1.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\Collection1\Collection1\obj\Debug\net5.0\Collection1.genruntimeconfig.cache
