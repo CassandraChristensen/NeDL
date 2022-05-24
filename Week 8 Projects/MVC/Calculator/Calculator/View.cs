@@ -26,7 +26,7 @@ namespace Calculator
             Op = "";
             Result = 0;
             GetValues();
-            GetOperation();
+            
 
         }
 
@@ -65,8 +65,11 @@ namespace Calculator
         //Called in constructor
         private void GetValues()
         {
- 
-          
+
+            bool endApp = false;
+
+            while (!endApp)
+            {
                 // Ask the user to type the first number.
                 Console.WriteLine("Type a number, and then press enter");
                 Num1 = Convert.ToDouble(Console.ReadLine());
@@ -75,27 +78,30 @@ namespace Calculator
                 Console.Write("Type another number, and then press Enter: ");
                 Num2 = Convert.ToDouble(Console.ReadLine());
 
-        }
 
-        private void GetOperation()
-        {
-            
-            // Ask the user to choose an operator.
-            Console.WriteLine("Choose an operator from the following list:");
-            Console.WriteLine("\ta - Add");
-            Console.WriteLine("\ts - Subtract");
-            Console.WriteLine("\tm - Multiply");
-            Console.WriteLine("\td - Divide");
-            Console.Write("Your option? ");
+                // Ask the user to choose an operator.
+                Console.WriteLine("Choose an operator from the following list:");
+                Console.WriteLine("\ta - Add");
+                Console.WriteLine("\ts - Subtract");
+                Console.WriteLine("\tm - Multiply");
+                Console.WriteLine("\td - Divide");
+                Console.Write("Your option? ");
 
-            Op = Console.ReadLine();
-        }
+                Op = Console.ReadLine();
+
+                
+
+                Console.WriteLine("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+                if (Console.ReadLine() == "n") endApp = true;
+            }
+        } //end of GetValues method
 
 
         //public method for showing output
         //public so i can access it from the controller.
         public void ShowResult()
         {
+            
             Console.WriteLine("Number 1: " + Num1);
             Console.WriteLine("Number 2: " + Num2);
             Console.WriteLine("Operation: " + Op);

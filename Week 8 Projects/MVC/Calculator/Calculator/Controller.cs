@@ -23,8 +23,7 @@ namespace Calculator
             model = new Model(view.Num1, view.Num2, view.Op);
             view.Result = model.DoOperation();
             view.ShowResult();
-            
-
+           
         }
            
 
