@@ -18,6 +18,19 @@ namespace Calculator
         private string op;
         private double result;
 
+        //constructor
+        public View()
+        {
+            Num1 = 0;
+            Num2 = 0;
+            Op = "";
+            Result = 0;
+            GetValues();
+            GetOperation();
+
+        }
+
+
         //properties
         public double Num1
         {
@@ -33,8 +46,8 @@ namespace Calculator
 
         public string Op
         {
-            get { return op; }  
-            set { op = value; } 
+            get { return op; }
+            set { op = value; }
         }
 
         public double Result
@@ -45,16 +58,8 @@ namespace Calculator
 
 
 
-        //constructor
-        public View()
-        {
-            Num1 = 0;
-            Num2 = 0;
-            Op = "";
-            Result = 0;
-            GetValues();
-            GetOperation();
-        }
+
+
 
         //method for getting input (private)
         //Called in constructor
@@ -74,6 +79,7 @@ namespace Calculator
 
         private void GetOperation()
         {
+            
             // Ask the user to choose an operator.
             Console.WriteLine("Choose an operator from the following list:");
             Console.WriteLine("\ta - Add");
@@ -85,13 +91,15 @@ namespace Calculator
             Op = Console.ReadLine();
         }
 
+
         //public method for showing output
         //public so i can access it from the controller.
         public void ShowResult()
         {
-            Console.WriteLine("Number 1: ", Num1);
-            Console.WriteLine("Number 2: ", Num2);
-            Console.WriteLine("Result: ", Result);
+            Console.WriteLine("Number 1: " + Num1);
+            Console.WriteLine("Number 2: " + Num2);
+            Console.WriteLine("Operation: " + Op);
+            Console.WriteLine("Result: " + Result);
             Console.ReadKey();
         }
 

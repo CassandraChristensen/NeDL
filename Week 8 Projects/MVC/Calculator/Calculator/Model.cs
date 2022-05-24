@@ -16,28 +16,8 @@ namespace Calculator
         private double number2;
         private string operation;
 
-        //properties
-        public double Number1
-        { get { return number1; } 
-          set { number1 = value; } 
-        }
-
-        public double Number2
-        {
-            get { return number2; }
-            set { number2 = value; }
-        }
-        
-        public string Operation
-        {
-            get { return operation; }
-            set { operation = value; }
-        }
-
-        //Constructors. 
-
         //default constructor
-        public Model ()
+        public Model()
         {
             Number1 = 0;
             Number2 = 0;
@@ -52,31 +32,61 @@ namespace Calculator
             Operation = newOperation;
         }
 
+
+        //properties
+        public double Number1
+        { get { return number1; } 
+          set { number1 = value; } 
+        }
+
+        public double Number2
+        {
+            get { return number2; }
+            set { number2 = value; }
+        }
+
+        public string Operation
+        {
+            get { return operation; }
+            set { operation = value; }
+        }
+
+
+
+        
+
+
+
         public double DoOperation()
         {
-            double result = double.NaN;
+            double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
 
+            // Use a switch statement to do the math.
             switch (Operation)
             {
                 case "a":
                     result = Number1 + Number2;
                     break;
-                case "b":
+                case "s":
                     result = Number1 - Number2;
                     break;
-                case "c":
+                case "m":
                     result = Number1 * Number2;
                     break;
-                case "d": 
+                case "d":
+                    // Ask the user to enter a non-zero divisor.
                     if (Number2 != 0)
                     {
                         result = Number1 / Number2;
                     }
                     break;
-                default: break;
+                // Return text for an incorrect option entry.
+                default:
+                    break;
             }
             return result;
+        } //End of Do Operation
 
-        }
-    }
-}
+    } //end of class
+    } //end of namespace
+ 
