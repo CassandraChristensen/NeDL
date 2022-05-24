@@ -39,20 +39,20 @@ namespace Calculator
         //default constructor
         public Model ()
         {
-            number1 = 0;
-            number2 = 0;
-            operation = "";
+            Number1 = 0;
+            Number2 = 0;
+            Operation = "";
         }
 
         //overloaded constructor
         public Model(double newNumber1, double newNumber2, string newOperation)
         {
-            number1 = newNumber1;
-            number2 = newNumber2;
-            operation = newOperation;
+            Number1 = newNumber1;
+            Number2 = newNumber2;
+            Operation = newOperation;
         }
 
-        public double DoOperation(double Number1, double Number2, string Operation)
+        public double DoOperation()
         {
             double result = double.NaN;
 
@@ -68,7 +68,7 @@ namespace Calculator
                     result = Number1 * Number2;
                     break;
                 case "d": 
-                    if (number2 != 0)
+                    if (Number2 != 0)
                     {
                         result = Number1 / Number2;
                     }

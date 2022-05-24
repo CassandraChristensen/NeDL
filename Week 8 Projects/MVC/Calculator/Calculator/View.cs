@@ -16,6 +16,7 @@ namespace Calculator
         private double num1;
         private double num2;
         private string op;
+        private double result;
 
         //properties
         public double Num1
@@ -36,18 +37,67 @@ namespace Calculator
             set { op = value; } 
         }
 
+        public double Result
+        {
+            get { return result; }
+            set { result = value; }
+        }
+
+
 
         //constructor
         public View()
         {
-            num1 = 0;
-            num2 = 0;
-            op = "";
+            Num1 = 0;
+            Num2 = 0;
+            Op = "";
+            Result = 0;
+            GetValues();
+            GetOperation();
         }
 
-        //me
+        //method for getting input (private)
+        //Called in constructor
+        private void GetValues()
+        {
+ 
+          
+                // Ask the user to type the first number.
+                Console.WriteLine("Type a number, and then press enter");
+                Num1 = Convert.ToDouble(Console.ReadLine());
+
+                // Ask the user to type the second number.
+                Console.Write("Type another number, and then press Enter: ");
+                Num2 = Convert.ToDouble(Console.ReadLine());
+
+        }
+
+        private void GetOperation()
+        {
+            // Ask the user to choose an operator.
+            Console.WriteLine("Choose an operator from the following list:");
+            Console.WriteLine("\ta - Add");
+            Console.WriteLine("\ts - Subtract");
+            Console.WriteLine("\tm - Multiply");
+            Console.WriteLine("\td - Divide");
+            Console.Write("Your option? ");
+
+            Op = Console.ReadLine();
+        }
+
+        //public method for showing output
+        //public so i can access it from the controller.
+        public void ShowResult()
+        {
+            Console.WriteLine("Number 1: ", Num1);
+            Console.WriteLine("Number 2: ", Num2);
+            Console.WriteLine("Result: ", Result);
+            Console.ReadKey();
+        }
 
         
+
+
 
     }
 }
