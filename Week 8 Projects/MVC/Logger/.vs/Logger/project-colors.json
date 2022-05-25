@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b5c4361a-27c1-4697-a98e-bd738813f228": {
+      "ProjectGuid": "b5c4361a-27c1-4697-a98e-bd738813f228",
+      "DisplayName": "Logger",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
