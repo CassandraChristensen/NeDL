@@ -12,44 +12,46 @@ namespace Calculator
         //It will handle: Data, Constructors, operations. 
 
         //private fields: 
-        private double number1;
-        private double number2;
-        private string operation;
+        //private double number1;
+        //private double number2;
+        //private string operation;
 
         //default constructor
-        public Model()
-        {
-            Number1 = 0;
-            Number2 = 0;
-            Operation = "";
-        }
+        //public Model()
+        //{
+            //Number1 = 0;
+            //Number2 = 0;
+            //Operation = "";
+        //}
 
         //overloaded constructor
-        public Model(double newNumber1, double newNumber2, string newOperation)
-        {
-            Number1 = newNumber1;
-            Number2 = newNumber2;
-            Operation = newOperation;
-        }
+        //public Model(double newNumber1, double newNumber2, string newOperation)
+        //{
+        //    Number1 = newNumber1;
+        //    Number2 = newNumber2;
+        //    Operation = newOperation;
+        //}
+
+        
 
 
         //properties
-        public double Number1
-        { get { return number1; } 
-          set { number1 = value; } 
-        }
+        //public double Number1
+        //{ get { return number1; } 
+        //  set { number1 = value; } 
+        //}
 
-        public double Number2
-        {
-            get { return number2; }
-            set { number2 = value; }
-        }
+        //public double Number2
+        //{
+        //    get { return number2; }
+        //    set { number2 = value; }
+        //}
 
-        public string Operation
-        {
-            get { return operation; }
-            set { operation = value; }
-        }
+        //public string Operation
+        //{
+        //    get { return operation; }
+        //    set { operation = value; }
+        //}
 
 
 
@@ -57,7 +59,7 @@ namespace Calculator
 
 
 
-        public double DoOperation()
+        public double DoOperation(double Number1, double Number2, string Operation)
         {
             double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
 

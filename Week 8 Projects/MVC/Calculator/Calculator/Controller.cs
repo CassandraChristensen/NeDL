@@ -22,8 +22,9 @@ namespace Calculator
             do
             {
                 view = new View();
-                model = new Model(view.Num1, view.Num2, view.Op);
-                view.Result = model.DoOperation();
+                //model = new Model(view.Num1, view.Num2, view.Op);
+                model = new Model();
+                view.Result = model.DoOperation(view.Num1, view.Num2, view.Op);
                 view.ShowResult();
             } while (view.Op != "n");
            
