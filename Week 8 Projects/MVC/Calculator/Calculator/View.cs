@@ -66,10 +66,10 @@ namespace Calculator
         private void GetValues()
         {
 
-            bool endApp = false;
+            //bool endApp = false;
 
-            while (!endApp)
-            {
+          //  while (!endApp)
+          //  {
                 // Ask the user to type the first number.
                 Console.WriteLine("Type a number, and then press enter");
                 Num1 = Convert.ToDouble(Console.ReadLine());
@@ -91,9 +91,9 @@ namespace Calculator
 
                 
 
-                Console.WriteLine("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
-                if (Console.ReadLine() == "n") endApp = true;
-            }
+                //Console.WriteLine("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+              //if (Console.ReadLine() == "n") endApp = true;
+           // }
         } //end of GetValues method
 
 
@@ -106,7 +106,9 @@ namespace Calculator
             Console.WriteLine("Number 2: " + Num2);
             Console.WriteLine("Operation: " + Op);
             Console.WriteLine("Result: " + Result);
-            Console.ReadKey();
+            Console.WriteLine("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+            Op = Console.ReadLine();
+            //Console.ReadKey();
         }
 
         

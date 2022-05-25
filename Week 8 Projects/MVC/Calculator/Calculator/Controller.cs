@@ -19,10 +19,13 @@ namespace Calculator
 
         public Controller()
         {
-            view = new View();
-            model = new Model(view.Num1, view.Num2, view.Op);
-            view.Result = model.DoOperation();
-            view.ShowResult();
+            do
+            {
+                view = new View();
+                model = new Model(view.Num1, view.Num2, view.Op);
+                view.Result = model.DoOperation();
+                view.ShowResult();
+            } while (view.Op != "n");
            
         }
            
