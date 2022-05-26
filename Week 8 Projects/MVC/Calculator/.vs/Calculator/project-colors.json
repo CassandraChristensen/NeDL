@@ -5,7 +5,12 @@
       "ProjectGuid": "bdeaa3cf-a631-46f0-af43-2bd05a557bb9",
       "DisplayName": "Calculator",
       "ColorIndex": 0
+    },
+    "1be4addc-4ec0-4538-97db-ceb4d202d9cf": {
+      "ProjectGuid": "1be4addc-4ec0-4538-97db-ceb4d202d9cf",
+      "DisplayName": "CalculatorTests",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

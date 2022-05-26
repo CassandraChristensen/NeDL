@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\Calculator\\Calculator\\Calculator.csproj",
-      "projectName": "Calculator",
-      "projectPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\Calculator\\Calculator\\CalculatorNS.csproj",
+      "projectName": "CalculatorNS",
+      "projectPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\Calculator\\Calculator\\CalculatorNS.csproj",
       "packagesPath": "C:\\Users\\CChristensen\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\Calculator\\Calculator\\obj\\",
       "projectStyle": "PackageReference",

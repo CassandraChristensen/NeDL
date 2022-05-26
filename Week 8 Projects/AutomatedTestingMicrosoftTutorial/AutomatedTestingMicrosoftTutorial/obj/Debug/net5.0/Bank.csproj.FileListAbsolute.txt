@@ -1,0 +1,16 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\bin\Debug\net5.0\Bank.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\bin\Debug\net5.0\Bank.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\bin\Debug\net5.0\Bank.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\bin\Debug\net5.0\Bank.runtimeconfig.dev.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\bin\Debug\net5.0\Bank.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\bin\Debug\net5.0\ref\Bank.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\bin\Debug\net5.0\Bank.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\ref\Bank.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\AutomatedTestingMicrosoftTutorial\AutomatedTestingMicrosoftTutorial\obj\Debug\net5.0\Bank.genruntimeconfig.cache

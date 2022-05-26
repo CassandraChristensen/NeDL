@@ -1,0 +1,16 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\bin\Debug\net5.0\CalculatorNS.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\bin\Debug\net5.0\CalculatorNS.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\bin\Debug\net5.0\CalculatorNS.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\bin\Debug\net5.0\CalculatorNS.runtimeconfig.dev.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\bin\Debug\net5.0\CalculatorNS.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\bin\Debug\net5.0\ref\CalculatorNS.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\bin\Debug\net5.0\CalculatorNS.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\ref\CalculatorNS.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\CalculatorTesting\CalculatorNS\obj\Debug\net5.0\CalculatorNS.genruntimeconfig.cache
