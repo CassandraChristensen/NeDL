@@ -1,0 +1,16 @@
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\bin\Debug\net5.0\BookSigning.exe
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\bin\Debug\net5.0\BookSigning.deps.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\bin\Debug\net5.0\BookSigning.runtimeconfig.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\bin\Debug\net5.0\BookSigning.runtimeconfig.dev.json
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\bin\Debug\net5.0\BookSigning.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\bin\Debug\net5.0\ref\BookSigning.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\bin\Debug\net5.0\BookSigning.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\ref\BookSigning.dll
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.pdb
+C:\Users\CChristensen\Desktop\NeDL\Week 8 Projects\MVC\BookSigning\BookSigning\obj\Debug\net5.0\BookSigning.genruntimeconfig.cache

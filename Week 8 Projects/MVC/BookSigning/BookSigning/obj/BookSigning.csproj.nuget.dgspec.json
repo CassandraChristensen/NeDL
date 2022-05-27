@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\Calculator\\CalculatorTests\\CalculatorTests.csproj": {}
+    "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\BookSigning\\BookSigning\\BookSigning.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\Calculator\\CalculatorTests\\CalculatorTests.csproj": {
+    "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\BookSigning\\BookSigning\\BookSigning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\Calculator\\CalculatorTests\\CalculatorTests.csproj",
-        "projectName": "CalculatorTests",
-        "projectPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\Calculator\\CalculatorTests\\CalculatorTests.csproj",
+        "projectUniqueName": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\BookSigning\\BookSigning\\BookSigning.csproj",
+        "projectName": "BookSigning",
+        "projectPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\BookSigning\\BookSigning\\BookSigning.csproj",
         "packagesPath": "C:\\Users\\CChristensen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\Calculator\\CalculatorTests\\obj\\",
+        "outputPath": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 8 Projects\\MVC\\BookSigning\\BookSigning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CChristensen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,24 +39,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.2.3, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.3, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.9.4, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
