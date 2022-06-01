@@ -36,9 +36,7 @@ namespace BookSigning
 
         public char CheckoutAgain { get; set; }
 
-        public IEnumerable<PersonalModel> personalModels { get; set; }
-        public IEnumerable<SignedModel> signedModels { get; set; }
-
+       
         //Constructors
         public View()
         {
@@ -51,18 +49,22 @@ namespace BookSigning
              
         }
 
+        public void GetBookType()
+        {
+            Console.WriteLine("Welcome to checkout. Is your book personalized? Please enter 'y' if yes or an 'n' if no. ");
+            BookType = Convert.ToChar(Console.ReadLine());
+        }
+
         //User input/output
         public void GetValue()
         {
 
-            
-            Console.WriteLine("Welcome to checkout. Is your book personalized? Please enter 'y' if yes or an 'n' if no. ");
-            BookType = Convert.ToChar(Console.ReadLine());
 
             if (BookType == 'y' || BookType == 'Y')
             {
                 Console.WriteLine("Please enter your name");
                 CustomerName = Console.ReadLine();
+                
 
                 Console.WriteLine("Please enter the book title");
                 BookTitle = Console.ReadLine();
@@ -78,6 +80,8 @@ namespace BookSigning
 
                 Console.WriteLine("Please enter coupon discount in decimal. Example 15% = .15");
                 Coupon = Convert.ToDouble(Console.ReadLine());
+
+
             }
             else
             {
@@ -101,39 +105,32 @@ namespace BookSigning
 
             }
             Console.WriteLine("Would you like to enter another book for checkout?");
-            CheckoutAgain = Convert.ToChar(Console.ReadLine());
+            CheckoutAgain = Convert.ToChar(Console.ReadLine());   
 
         }
 
-
-        public void GetCoupon()
-        {
-            Console.WriteLine("Please enter coupon percentage");
-            Coupon = Convert.ToDouble(Console.ReadLine());
-        }
-
-        
-            
-        public void Read()
-        {
-            foreach (PersonalModel apersonal in personalModels)
-            {
-                Console.WriteLine("Personalized Book: " + apersonal);
-            }
-
-            foreach (SignedModel asigned in signedModels)
-            {
-                Console.WriteLine("Signed Only Book: " + asigned);
-            }
-        }
 
         public void ShowResults()
         {
-            Console.WriteLine("Tax for Signed Book: " + TaxAmount1);
-            Console.WriteLine("Tax for Personalized Book: " + TaxAmount2);
-            Console.WriteLine("Coupon dollar discount: " + CouponDollarDiscount);
-            Console.WriteLine("Signed Book Total: " + BookTotal1);
-            Console.WriteLine("Personalized Book Total: " + BookTotal2);
+            if (BookType == 'y' || BookType == 'Y')
+            {
+                Console.WriteLine("Customer name: " + CustomerName);
+                Console.WriteLine("Book title: " + BookTitle);
+                Console.WriteLine("Author name: " + AuthorName);
+                Console.WriteLine("Original book price: " + BookPrice);
+                Console.WriteLine("Tax for Personalized Book: " + TaxAmount2);
+                Console.WriteLine("Coupon dollar discount: " + CouponDollarDiscount);
+                Console.WriteLine("Personalized Book Total: " + BookTotal2);
+            }
+            else
+            {
+                Console.WriteLine("Customer name: " + CustomerName);
+                Console.WriteLine("Book title: " + BookTitle);
+                Console.WriteLine("Author name: " + AuthorName);
+                Console.WriteLine("Original book price: " + BookPrice);
+                Console.WriteLine("Tax for Signed Book: " + TaxAmount1);
+                Console.WriteLine("Signed Book Total: " + BookTotal1);
+            }
 
         }
         
