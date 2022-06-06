@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "TxFvvCRM4otoCF/oUh6hTIzz8j7ATo62f07ADKLAy28=",
+  "Source": "ComicConApi",
+  "BasePath": "_content/ComicConApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ComicConApi\\wwwroot",
+      "Source": "ComicConApi",
+      "ContentRoot": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 10 Projects\\Competency Project\\ComicConApi\\ComicConApi\\wwwroot\\",
+      "BasePath": "_content/ComicConApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 10 Projects\\Competency Project\\ComicConApi\\ComicConApi\\wwwroot\\css\\site.css",
+      "SourceId": "ComicConApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 10 Projects\\Competency Project\\ComicConApi\\ComicConApi\\wwwroot\\",
+      "BasePath": "_content/ComicConApi",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 10 Projects\\Competency Project\\ComicConApi\\ComicConApi\\wwwroot\\index.html",
+      "SourceId": "ComicConApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 10 Projects\\Competency Project\\ComicConApi\\ComicConApi\\wwwroot\\",
+      "BasePath": "_content/ComicConApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 10 Projects\\Competency Project\\ComicConApi\\ComicConApi\\wwwroot\\js\\site.js",
+      "SourceId": "ComicConApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CChristensen\\Desktop\\NeDL\\Week 10 Projects\\Competency Project\\ComicConApi\\ComicConApi\\wwwroot\\",
+      "BasePath": "_content/ComicConApi",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
