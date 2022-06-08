@@ -9,7 +9,7 @@ using ComicConApi.Models;
 
 namespace ComicConApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/ComicConTickets")]
     [ApiController]
     public class ComicConTicketsController : ControllerBase
     {
