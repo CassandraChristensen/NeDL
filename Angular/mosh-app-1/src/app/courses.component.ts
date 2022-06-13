@@ -5,10 +5,10 @@ import { CoursesService } from "./courses.service";
     selector: 'courses', //<courses>,
     template: 
     //Codes of Blocks: 
-    //1. data binding
+    //1. data binding - one way binding, interpolation moves data in one direction from my component to HTML elements.
     //2. Pipes (Can go to angular.io and type in types of pipes, it'll give you different formats, like shortDate, longDate etc)
     //3. Custom Pipes. Summary is a custom pipe that comes from summary.pipe.ts
-    //4. Data wrapping//preventing event bubbling
+    //4. Data wrapping, event binding and class binding (isActive)
     //5. Two way binding. Allows borr to enter an email into the input, then, that will update the email variable in our component and write the new email to the console log.
     //6. Data binding, and using a constructor that uses Depedency Injection to use a service that gets each of the courses, then use a for loop to print them each out.
     
@@ -25,11 +25,14 @@ import { CoursesService } from "./courses.service";
         {{ text | summary: 10 }}
 
         <div (click)="onDivClicked()">
-            <button (click)="onSave($event)">Save</button>
+            <button class="btn btn-primary" [class.active]="isActive" (click)="onSave($event)">Save</button>
         </div>
 
         
+
+        
         <input [(ngModel)]="email" (keyup.enter)="onKeyUp()" />
+        {{ email | titlecase }}<br/>
 
         
         <ul>
@@ -60,6 +63,8 @@ export class CoursesComponent {
     text ='Lorem Ipsum is simply dummy text of the printing and typeset'
 
     //4.
+    isActive = false;
+
     onDivClicked(){
         console.log("Div was clicked");
     }

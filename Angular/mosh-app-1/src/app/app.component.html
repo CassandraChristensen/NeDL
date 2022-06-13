@@ -1,2 +1,9 @@
 <h1>Angular</h1>
 <courses></courses>
+
+<!--Two way binding, using banana in a box -->
+<input type="text" [(ngModel)]="Rating"> <br>
+
+<!--Interpolation with custom piping. Custom pipe is: title-case.pipe.ts-->
+{{ Rating | titleCase}}
+
