@@ -2,7 +2,17 @@
 <h1> {{ title }} </h1>
 
 <!--Heroes component element selector being added to the appComponent shell-->
-<app-heroes> </app-heroes>
+<!--Commented this out because the template no longer needs it beacuse the app will only dispaly this component when the user navigates to it.-->
+<!--<app-heroes> </app-heroes>-->
+
+<nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+
+<!--This tells the router where to dispaly routed views.-->
+<router-outlet></router-outlet>
+
 
 <!--Messages component-->
 <app-messages></app-messages>

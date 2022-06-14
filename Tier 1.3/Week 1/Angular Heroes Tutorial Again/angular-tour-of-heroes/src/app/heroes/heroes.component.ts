@@ -18,23 +18,17 @@ import { MessageService } from '../message.service';
 //class will always have export in front of it so it may be imported elsewhere. 
 export class HeroesComponent implements OnInit {
 
-  selectedHero?: Hero;
-
   heroes: Hero[] = [];
 
   //The parameter simultaneously defines a private heroService property and identifies it as a HeroService injection site.
   //When Angular creates a HeroesComponent, the Dependency Injection system sets the heroService parameter to the singleton instance of HeroService.
-  constructor(private heroService: HeroService, private messageService: MessageService) { }
+  constructor(private heroService: HeroService) { }
 
   //This is a lifecycle hook. This is a goo dplace to put initialization logic. 
   ngOnInit(): void {
     this.getHeroes();
   }
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-    this.messageService.add(`HeroesComponent: Selected hero id=${hero.id}`);
-  }
 
   // Asynchronous signature for an HttpClient.get method. 
   getHeroes(): void {
