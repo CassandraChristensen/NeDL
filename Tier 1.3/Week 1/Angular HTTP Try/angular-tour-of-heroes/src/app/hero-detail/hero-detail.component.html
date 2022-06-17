@@ -1,0 +1,14 @@
+<!--h2 line: interpolation using a pipe that formats the string. There are already defined pipes available for use, or custom ones can be made. -->
+<!--ngModel is the syntax used for two way binding. -->
+<div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div>id: {{hero.id}}</div>
+    <div>
+      <label for="hero-name">Hero name: </label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
+    </div>
+  </div>
+
+  <button type="button" (click)="goBack()">go back</button>
+
+ 
