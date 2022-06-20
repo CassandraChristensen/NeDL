@@ -1,0 +1,7 @@
+C:\Users\CChristensen\Desktop\NeDL\Tier 1.3\Week 2\Day 1\Activity4\Backend\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\CChristensen\Desktop\NeDL\Tier 1.3\Week 2\Day 1\Activity4\Backend\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChristensen\Desktop\NeDL\Tier 1.3\Week 2\Day 1\Activity4\Backend\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Tier 1.3\Week 2\Day 1\Activity4\Backend\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Tier 1.3\Week 2\Day 1\Activity4\Backend\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\CChristensen\Desktop\NeDL\Tier 1.3\Week 2\Day 1\Activity4\Backend\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\CChristensen\Desktop\NeDL\Tier 1.3\Week 2\Day 1\Activity4\Backend\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
